@@ -48,8 +48,11 @@ function Photostoriessingle() {
               className="w-full h-auto"
             />
           </div>
+          <div className = "h-[100px]">
+          <div className=" bg-[#4A4A4A] h-[1.5px] border-[#4A4A4A] w-full border " />
+          </div>
           {photoStoryNextPrevious != null ? (
-            <div className="w-full mt-10">
+            <div className="w-full mt-10 pb-2">
               <div className=" bg-[#4A4A4A] h-[1.5px] border-[#4A4A4A] w-full border " />
               <div className="w-full justify-between flex flex-row">
               {photoStoryNextPrevious[0] != null ? (
@@ -102,7 +105,7 @@ function Photostoriessingle() {
             </div>
           </div> */}
 
-          <Stack spacing={2} className="pt-6 pb-12">
+          {/* <Stack spacing={2} className="pt-6 pb-12">
             <Pagination
               count={10}
               renderItem={(item) => (
@@ -116,7 +119,7 @@ function Photostoriessingle() {
                 />
               )}
             />
-          </Stack>
+          </Stack> */}
         </div>
       </div>
       <div className="h-[450px] sm:h-full flex justify-center items-center overflow-hidden">

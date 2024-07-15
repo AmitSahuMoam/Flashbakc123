@@ -13,7 +13,7 @@ function FeaturedCollection() {
             src="https://cdn.sanity.io/images/u8qx4arf/production/6c1d7502c2d96b086051b64cbe9f7e165a6cae7f-636x809.png"
             alt="hello"
           />
-          <div className="text-[40px] sm:text-[48px] sm:w-[50%] Boldy flex-col flex  justify-center  mt-10 sm:mt-0">
+          <div className="text-[40px] sm:text-[48px] sm:w-[50%] Boldy flex-col flex  justify-center  mt-10 sm:mt-0 pl-[30px]">
             Behind
             <div className="flex-row flex mt-[-5px]">
               <p className="Actonia lg:text-5xl text-3xl mb-auto lowercase ml-10">

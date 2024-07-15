@@ -29,7 +29,7 @@ function TestimonialTile({ name, title, content, img }) {
           {isExpanded ? content : `${content.substring(0, 200)}...`}
         </p>
       </div>
-      <div className="w-full text-2xl border cursor-pointer mb-2 ml-[-10px] mt-2 rounded-lg Boldy text-black">
+      <div className="w-full text-2xl border cursor-pointer mb-2 ml-[-10px] mt-2 rounded-lg Boldy text-black Courier Prime">
         <div className="border w-fit h-min rounded-lg">
           <Button
             sx={{ color: '#4A4A4A', textTransform: 'none' }}

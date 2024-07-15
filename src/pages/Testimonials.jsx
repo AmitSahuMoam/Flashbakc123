@@ -30,22 +30,22 @@ function Testimonials() {
       </div>
       <div className="bg-testimonials flex flex-col justify-center items-center">
         <div className="sm:w-1/2 flex justify-center items-center flex-col pt-4">
-          <div className="sm:w-[60%] text-nowrap mt-5 flex flex-row sm:ml-0 -ml-12 -mb-4">
-            <div className="h-[200%] flex justify-end">
-              <span className="text-[30px] sm:text-[36px] Actonia text-white pr-2 mt-[-20px] ml-[-2vw]">
-                our
-              </span>
-            </div>
-            <span className="text-black Boldy text-[40px] sm:text-[48px]">
-              HAPPY COUPLES
+        <div className="flex flex-row text-4xl pt-4 justify-end">
+          <div className="flex flex-row">
+            <span className="Actonia text-[#FFFFFF] mb-auto text-[30px] sm:text-[36px] mr-1">
+              our
             </span>
           </div>
-          <div className="sm:w-[60%] text-nowrap flex justify-end sm:ml-0 ml-12 mb-4">
-            <span className="text-[30px] sm:text-[36px] Actonia text-black -ml-10 pr-2 mt-[-12px]">and</span>{" "}
-            <span className="text-white Boldy text-[40px] sm:text-[48px]">
-              THEIR THOUGHTS
+          <span className="text-[#1C1C1C] Boldy text-[40px] sm:text-[48px] mt-4">Happy Couples</span>
+        </div>
+        <div className="flex flex-row text-4xl pb-4 justify-end">
+          <div className="flex flex-row">
+            <span className="Actonia text-[#1C1C1C] mb-auto text-[30px] sm:text-[36px] mr-1">
+              and
             </span>
           </div>
+          <span className="text-[#FFFFFF] Boldy text-[40px] sm:text-[48px] mt-4">THEIR THOUGHTS</span>
+        </div>
           {testimonialsData?.map((item, index) => (
             <div>
               <TestimonialTile
