@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+import Actonia from './assets/fonts/A/ActoniaPERSONAL.ttf';
+import Boldy from './assets/fonts/boldy/boldyy/Boldy.ttf';
+
+.imgabout {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+html {
+  scroll-behavior: smooth;
+}
