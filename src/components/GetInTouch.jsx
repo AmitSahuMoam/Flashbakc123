@@ -122,7 +122,7 @@ function GetInTouch() {
 
             <input
               type="text"
-              name="email"
+              name="email"bg
               placeholder="Your Email*"
               className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5 text-[#A18E6A]"
               onChange={handleChange}
