@@ -77,8 +77,7 @@ function GetInTouch() {
                 type="radio"
                 name="mediaOption"
                 value="Photos"
-                className="Courier rounded-full"
-                onChange={handleChange}
+                className="Courier rounded-full accent-black"                onChange={handleChange}
               /> Photos
             </div>
 
@@ -87,8 +86,7 @@ function GetInTouch() {
                 type="radio"
                 name="mediaOption"
                 value="Photos & Videos"
-                className="Courier rounded-full"
-                onChange={handleChange}
+                className="Courier rounded-full accent-black"                onChange={handleChange}
               /> Photos & Videos
             </div>
 
@@ -97,7 +95,7 @@ function GetInTouch() {
                 type="radio"
                 name="mediaOption"
                 value="Couples Session"
-                className="Courier rounded-full bg-[#1C1C1C]"
+                className="Courier rounded-full accent-black"
                 onChange={handleChange}
               /> Couples Session
             </div>
@@ -107,7 +105,7 @@ function GetInTouch() {
                 type="radio"
                 name="mediaOption"
                 value="Question"
-                className="Courier rounded-full"
+               className="Courier rounded-full accent-black"
                 onChange={handleChange}
               /> Question
             </div>
