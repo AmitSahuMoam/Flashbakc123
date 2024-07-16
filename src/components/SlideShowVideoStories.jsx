@@ -19,7 +19,7 @@ const settings = {
 
 function SlideShowVideoStories({ photoStoriesData, className }) {
   return (
-    <div className=" justify-start sm:justify-center text-[#211E1D] flex-col  flex sm:flex-row Boldy  w-screen">
+    <div className=" justify-start items-center sm:justify-center text-[#211E1D] flex-col  flex sm:flex-row Boldy  w-screen">
       {photoStoriesData.slice(0, 3)?.map((image, index) => (
         <div key={uuidv4()} className="">
           <VideoStoryTile

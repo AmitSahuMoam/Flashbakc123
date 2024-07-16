@@ -181,7 +181,7 @@ ul {
   padding-bottom: 1rem;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 1024px) {
   .hamburger {
     display: none;
   }

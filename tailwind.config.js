@@ -35,6 +35,10 @@ export default {
           transparent: 'transparent',
         }
       },
+      screens:{
+        'sm': '1024px',
+        '2xl':'1720px'
+      }
     },
 
   },
