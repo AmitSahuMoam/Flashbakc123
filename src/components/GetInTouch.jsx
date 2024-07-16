@@ -49,7 +49,7 @@ function GetInTouch() {
             <br />
             to know about you
           </h1>
-          <p className="text-[#1C1C1C] Courier font-medium  text-[16px] mb-10 px-5 leading-normal tracking-normal ">
+          <p className="text-[#4A4A4A] Courier font-medium  text-[16px] mb-10 px-5 leading-normal tracking-normal ">
             Please fill in the form below and provide as many details as possible
             to help us create an accurate and fair quote for your special
             occasion.
@@ -66,7 +66,7 @@ function GetInTouch() {
           Get in touch with us
         </span>
         <br />
-        <span className="text-[16px] Courier text-[#1C1C1C] ">required fields are marked*</span>
+        <span className="text-[16px] Courier text-[#4A4A4A] ">required fields are marked*</span>
 
         <div className="Courier text-[16px] justify-start flex flex-col items-start mt-5 text-[#1C1C1C]">
           <span>What services are you looking for?</span>
@@ -118,7 +118,7 @@ function GetInTouch() {
               type="text"
               name="name"
               placeholder="Your Name*"
-              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5"
+              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5 text-[#A18E6A]"
               onChange={handleChange}
             />
 
@@ -126,7 +126,7 @@ function GetInTouch() {
               type="text"
               name="email"
               placeholder="Your Email*"
-              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5"
+              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5 text-[#A18E6A]"
               onChange={handleChange}
             />
 
@@ -134,7 +134,7 @@ function GetInTouch() {
               type="text"
               name="phone"
               placeholder="Your Phone*"
-              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded mb-5"
+              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded mb-5 text-[#A18E6A]"
               onChange={handleChange}
             />
 
@@ -142,7 +142,7 @@ function GetInTouch() {
               type="text"
               name="guestCount"
               placeholder="Estimated Guest Count*"
-              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded mb-5"
+              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded mb-5 text-[#A18E6A]"
               onChange={handleChange}
             />
 
@@ -153,7 +153,7 @@ function GetInTouch() {
               onChange={handleChange}
             />
 
-            <div className="Courier w-full flex justify-start text-[#A18E6A]">
+            <div className="Courier w-full flex justify-start text-[#A18E6A] ">
               <span className="text-[#4A4A4A]">
                 Please describe in length the details of the wedding
               </span>
@@ -163,7 +163,7 @@ function GetInTouch() {
               type="text"
               name="location"
               placeholder="Location of the wedding*"
-              className="Courier w-full bg-[#A18E61] border-none p-5 rounded mt-5 mb-5"
+              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mt-5 mb-5 text-[#A18E6A]"
               onChange={handleChange}
             />
 
@@ -171,7 +171,7 @@ function GetInTouch() {
               type="text"
               name="eventDates"
               placeholder="Event Dates*"
-              className="Courier w-full bg-[#A18E61] border-none p-5 rounded mb-5"
+              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5 text-[#A18E6A]"
               onChange={handleChange}
             />
 
