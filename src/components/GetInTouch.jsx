@@ -42,9 +42,9 @@ function GetInTouch() {
   return (
     <div className="w-full flex flex-col items-center text-center justify-center pt-20 ">
       <form className="sm:w-1/2 w-full px-10 sm:p-0" onSubmit={handleSubmit}>
-        <span className="Actonia text-[30px] sm:text-[36px] text-[#FFCA00]">Hello!</span>
+        <span className="Actonia text-[36px] sm:text-[36px] text-[#FFCA00]">Hello!</span>
         <div className="w-full sm:w-3/4 mx-auto">
-          <h1 className="sm:text-5xl text-4xl mt-2 mb-2 uppercase Boldy text-black">
+          <h1 className="sm:text-5xl text-4xl mb-2 uppercase Boldy text-black">
             tell us all we need
             <br />
             to know about you

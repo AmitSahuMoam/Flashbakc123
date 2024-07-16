@@ -22,7 +22,7 @@ function TestimonialTile({ name, title, content, img }) {
         />
       </div>
       <div>
-        <p className="Courier text-[#4A4A4A] text-[16px] font-bold mt-2">
+        <p className="Courier text-[#1C1C1C] text-[16px] font-bold mt-2">
           {title}
         </p>
         <p className="Courier text-[#4A4A4A] text-[16px] mt-2 leading-normal">

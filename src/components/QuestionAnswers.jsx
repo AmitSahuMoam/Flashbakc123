@@ -5,8 +5,8 @@ function QuestionAnswers({ question, answer }) {
   const questionParts = question.split('\\n');
 
   return (
-    <div className="flex flex-col sm:flex-row sm:w-[90%] sm:ml-0 mx-10 mt-5">
-      <p className="Boldy flex-1  text-[#FFCA00] text-left sm:text-right sm:mr-5 text-[24px] uppercase Boldy sm:text-3xl leading-normal break-all">
+    <div className="flex flex-col sm:flex-row sm:w-[90%] sm:ml-0 mx-10 mt-5 justify-center">
+      <p className="Boldy flex-1  text-[#FFCA00] text-center sm:text-center sm:mr-5 text-[24px] sm:max-w-[304px] uppercase Boldy sm:text-3xl leading-normal break-all whitespace-normal">
         {questionParts.map((part, index) => (
           <span>
             {part}
@@ -14,7 +14,7 @@ function QuestionAnswers({ question, answer }) {
           </span>
         ))}
       </p>
-      <p className="Courier Prime flex-[3] text-[#D8CAB1] Courier sm:max-w-[60%] text-[16px] leading-normal">
+      <p className="Courier Prime flex-[3] text-[#D8CAB1] Courier sm:max-w-[985px] text-[16px] leading-normal">
         {answer}
       </p>
     </div> 

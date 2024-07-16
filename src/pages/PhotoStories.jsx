@@ -38,8 +38,8 @@ function PhotoStories() {
       <div className="bg-[#EDECE7] flex justify-center items-center">
         <div className="flex flex-col items-center w-[90%]">
           <div className="sm:text-5xl text-4xl uppercase Boldy text-black text-center py-6">
-            Love &nbsp;<span className="Actonia lowercase">is the</span> whole
-            thing. <br /> we are only pieces.
+         <div> Love &nbsp;<span className="Actonia lowercase">is the</span> whole
+            thing.</div> <div className = " "> we are only pieces.</div>
           </div>
           <div className=" Courier flex flex-col justify-around mb-10 sm:flex-row w-[100%] lg:w-[70%] ">
             <div className=" Courier flex-1 text-[16px] m-2 mt-0">

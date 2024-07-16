@@ -20,7 +20,7 @@ function Videos() {
     <div className="pt-10 bg-texture bg-fixed h-full bg-cover ">
       <div className="flex w-full ">
         <div className="flex flex-row ml-[20%] ">
-          <span className="Actonia text-white mb-auto text-[30px] sm:text-[36px]">through</span>
+          <span className="Actonia text-white mb-auto text-[30px] sm:text-[36px] mt-2 ">through</span>
           <span className="text-[#ffca00] ml-2 Boldy text-[40px] sm:text-[48px] mt-4">Videos</span>
           <img src={downarrow} alt="" className="w-[2vh] ml-1 mt-5" />
         </div>

@@ -13,6 +13,7 @@ function BigSlider() {
       showStatus={false}
       autoPlay
       infiniteLoop
+      stopPropagation={true}
     >
       <div>
         <img

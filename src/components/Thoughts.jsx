@@ -58,8 +58,8 @@ function Thoughts() {
         <div className="h-[15vh] pt-20 flex text-md sm:flex-row justify-center items-center text-3xl sm:text-3xl  Boldy bg-cover gap-2 pb-10">
           <span className="text-[#1C1C1C] Actonia text-[30px] sm:text-[36px] mb-12 mr-[-10px] sm:mr-[0]">our</span>
           <span className="text-[#FFCA00] Boldy text-[40px] sm:text-[48px]">AWARDS</span>
-          <span className="Actonia text-[30px] sm:text-[36px]">&</span>{" "}
-          <span className=" Boldy text-[40px] sm:text-[48px] text-3xltext-[#1C1C1C]">
+          <span className="Actonia text-[30px] text-[#1C1C1C] sm:text-[36px]">&</span>{" "}
+          <span className=" Boldy text-[40px] sm:text-[48px] text-3xl text-[#1C1C1C]">
             FEATURES
           </span>
         </div>
