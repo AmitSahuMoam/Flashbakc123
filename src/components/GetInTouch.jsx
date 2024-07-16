@@ -56,7 +56,7 @@ function GetInTouch() {
             <br />
             <br />
             Please go through our {" "}
-            <a href="/aboutus#questions" className="underline bg-[#1C1C1C]">FAQ section</a>
+            <a href="/aboutus#questions" className="underline text-[#1C1C1C]">FAQ section</a>
             <br />
             to find answers to some common questions.
           </p>
@@ -118,7 +118,7 @@ function GetInTouch() {
               type="text"
               name="name"
               placeholder="Your Name*"
-              className="Courier w-full bg-[#A18E61] border-none p-5 rounded mb-5"
+              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5"
               onChange={handleChange}
             />
 
@@ -126,7 +126,7 @@ function GetInTouch() {
               type="text"
               name="email"
               placeholder="Your Email*"
-              className="Courier w-full bg-[#A18E61] border-none p-5 rounded mb-5"
+              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5"
               onChange={handleChange}
             />
 
@@ -134,7 +134,7 @@ function GetInTouch() {
               type="text"
               name="phone"
               placeholder="Your Phone*"
-              className="Courier w-full bg-[#A18E61] border-none p-5 rounded mb-5"
+              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded mb-5"
               onChange={handleChange}
             />
 
@@ -142,14 +142,14 @@ function GetInTouch() {
               type="text"
               name="guestCount"
               placeholder="Estimated Guest Count*"
-              className="Courier w-full bg-[#A18E61] border-none p-5 rounded mb-5"
+              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded mb-5"
               onChange={handleChange}
             />
 
             <textarea
               name="details"
               placeholder="Describe the details of the wedding- event schedule, venues.*"
-              className="Courier w-full bg-[#A18E61] border-none p-5 rounded h-[200px]"
+              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded h-[200px]"
               onChange={handleChange}
             />
 
