@@ -21,10 +21,61 @@
   font-family: 'Actonia';
   src: url("./assets/fonts/A/ActoniaPERSONAL.ttf");
 }
-@fontface{
+
+@font-face {
   font-family: 'Courier';
-  src: url("./assets/fonts/CourierPrime-Regular.ttf");
+  src: url('./assets/fonts/CourierPrime-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/CourierPrime-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/CourierPrime-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/CourierPrime-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/CourierPrime-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Courier ';
+  src: url('./assets/fonts/CourierPrime-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier';
+  src: url('./assets/fonts/CourierPrime-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Courier';
+  src: url('./assets/fonts/CourierPrime-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
 @fontface{
   font-family : 'Boldy';
   src : url("./assets/fonts/boldyy/boldy/Boldy.ttf");

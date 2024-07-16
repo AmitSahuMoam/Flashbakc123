@@ -97,7 +97,7 @@ function GetInTouch() {
                 type="radio"
                 name="mediaOption"
                 value="Couples Session"
-                className="Courier rounded-full"
+                className="Courier rounded-full bg-[#1C1C1C]"
                 onChange={handleChange}
               /> Couples Session
             </div>
