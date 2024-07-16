@@ -4,7 +4,7 @@ function PhotoStoryTile({ name, location, img, nameClass, locationClass, link })
   const isVideo = img?.includes("mp4");
 
   return (
-    <a href={link} target="_blank" rel="noreferrer">
+    <a href={link}>
       <div className="mt-5 lg:max-w-[100vw]">
         {isVideo ? (
           <div className="aspect-video">
