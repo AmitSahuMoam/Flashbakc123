@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function VideoStoryTile({ name, location, img, link }) {
   return (
-    <a href={link} target="_blank" rel="noreferrer">
+    <a href={link}  rel="noreferrer">
       <div className="  p-3 sm:p-3">
         {img?.includes("mp4") ? (
           <video
