@@ -7,6 +7,8 @@ export const uploadImageToStorage = async (file) => {
       .from("blogs-images") // Ensure the bucket name is correct
       .upload(`public/${file.name}`, file);
 
+    console.log("Data", data);
+
     if (error) {
       throw error;
     }
@@ -81,6 +83,7 @@ export const editBlog = async (id, values) => {
 export const createBlog = async (values) => {
   try {
     const coverImage = await uploadImageToStorage(values.coverImage);
+    console.log("Image 1 Uploaded");
     const imageOne = await uploadImageToStorage(values?.imageOne);
     const imageTwo = await uploadImageToStorage(values?.imageTwo);
     const imageThree = await uploadImageToStorage(values?.imageThree);

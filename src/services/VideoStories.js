@@ -30,7 +30,7 @@ export const createVideoStory = async (values) => {
           firstPersonName: values.firstPersonName,
           secondPersonName: values.secondPersonName,
           state: values.state,
-          narrativeLink: values.narrativeLink,
+          // narrativeLink: values.narrativeLink,
           image: imageUrl,
         },
       ])

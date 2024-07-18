@@ -56,7 +56,7 @@ function VideoStoryCreate() {
                   placeholder="First Name"
                   required
                   // eslint-disable-next-line react/jsx-props-no-spreading
-                  required={register("firstPersonName", { required: true })}
+                  {...register("firstPersonName", { required: true })}
                 />
                 {errors.firstPersonName && (
                   <p className="text-red-500 text-sm">First Name is required</p>
@@ -73,7 +73,7 @@ function VideoStoryCreate() {
                   placeholder="Second Name"
                   required
                   // eslint-disable-next-line react/jsx-props-no-spreading
-                  required={register("secondPersonName", { required: true })}
+                  {...register("secondPersonName", { required: true })}
                 />
                 {errors.secondPersonName && (
                   <p className="text-red-500 text-sm">
@@ -92,13 +92,13 @@ function VideoStoryCreate() {
                   placeholder="State"
                   required
                   // eslint-disable-next-line react/jsx-props-no-spreading
-                  required={register("state", { required: true })}
+                  {...register("state", { required: true })}
                 />
                 {errors.state && (
                   <p className="text-red-500 text-sm">State is required</p>
                 )}
               </div>
-              <div>
+              {/* <div>
                 <div className="mb-2 block">
                   <Label htmlFor="narrativeLink" value="Narrative Link" />
                 </div>
@@ -107,9 +107,9 @@ function VideoStoryCreate() {
                   name="narrativeLink"
                   type="text"
                   placeholder="Link"
-                  required={register("narrativeLink")}
+                  {...register("narrativeLink")}
                 />
-              </div>
+              </div> */}
               <div>
                 <div>
                   <Label
@@ -121,7 +121,7 @@ function VideoStoryCreate() {
                   id="file-upload-helper-text"
                   helperText="SVG, PNG, JPG or GIF (MAX. 800x400px)."
                   // eslint-disable-next-line react/jsx-props-no-spreading
-                  required={register("image", { required: true })}
+                  {...register("image", { required: true })}
                 />
                 {errors.image && (
                   <p className="text-red-500 text-sm">Image is required</p>

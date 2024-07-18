@@ -86,7 +86,7 @@ function PhotoStorySingleCreate() {
                   <p className="text-red-500 text-sm">State is required</p>
                 )}
               </div>
-              <div>
+              {/* <div>
                 <div className="mb-2 block">
                   <Label htmlFor="narrativeLink" value="Narrative Link" />
                 </div>
@@ -96,7 +96,7 @@ function PhotoStorySingleCreate() {
                   placeholder="Link"
                   {...register("narrativeLink")}
                 />
-              </div>
+              </div> */}
               <div>
                 <div>
                   <Label htmlFor="file-upload-helper-text" value="Upload file" />
