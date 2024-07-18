@@ -147,7 +147,7 @@ function NavBarSticky(props) {
                       <span className="mr-2 Boldy flex items-center justify-center z-50 sm:text-[16px] 2xl:text-[20px]">
                         GET{" "}
                       </span>
-                      <div className="flex items-center justify-center Boldy" key={CurrentStuff}>
+                      <div className="flex items-center justify-center Boldy sm:text-[16px] 2xl:text-[20px]" key={CurrentStuff}>
                         <MovingComponent
                           id="moving"
                           type="fadeInFromBottom"
