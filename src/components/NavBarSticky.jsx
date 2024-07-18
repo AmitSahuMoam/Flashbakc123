@@ -142,9 +142,9 @@ function NavBarSticky(props) {
                     <Link
                       to="/aboutus#contact"
                       type="button"
-                      className="sm:flex hidden flex-row items-center bg-[#ffca00] cursor-pointer w-[140px] rounded text-black overflow-hidden hover:text-yellow-300 hover:bg-black hover:border-yellow-300 transition-all ease-in duration-300 px-2 py-2  h-[34px]"
+                      className="sm:flex hidden flex-row items-center bg-[#ffca00] cursor-pointer w-[140px] 2xl:w-[164px] sm:h-[29px] 2xl:h-[34px] rounded text-black overflow-hidden hover:text-yellow-300 hover:bg-black hover:border-yellow-300 transition-all ease-in duration-300 px-2 py-2"
                     >
-                      <span className="mr-2 Boldy flex items-center justify-center z-50">
+                      <span className="mr-2 Boldy flex items-center justify-center z-50 sm:text-[16px] 2xl:text-[20px]">
                         GET{" "}
                       </span>
                       <div className="flex items-center justify-center Boldy" key={CurrentStuff}>

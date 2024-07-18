@@ -31,23 +31,21 @@ function Testimonials() {
       <div className="bg-testimonials flex flex-col justify-center items-center">
         <div className="sm:w-1/2 flex justify-center items-center flex-col pt-4">
         <div className="flex flex-row text-4xl pt-4 justify-end">
-          {/* <div className="flex flex-row"> */}
+          <div className="flex flex-row">
             <span className="Actonia text-[#FFFFFF] mb-auto text-[30px] sm:text-[36px] 2xl:text-[64px] mr-1">
               our
             </span>
-          {/* </div> */}
+          </div>
           <span className="text-[#1C1C1C] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">Happy Couples</span>
-        
+        </div>
         <div className="flex flex-row text-4xl pb-4 justify-end">
-          {/* <div className="flex flex-row"> */}
+          <div className="flex flex-row">
             <span className="Actonia text-[#1C1C1C] mb-auto text-[30px] sm:text-[36px] 2xl:text-[64px] mr-1">
               and
             </span>
-          {/* </div> */}
+          </div>
           <span className="text-[#FFFFFF] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">THEIR THOUGHTS</span>
         </div>
-        </div>
-
           {testimonialsData?.map((item, index) => (
             <div>
               <TestimonialTile

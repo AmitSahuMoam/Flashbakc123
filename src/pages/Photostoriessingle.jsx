@@ -41,7 +41,7 @@ function Photostoriessingle() {
               {photoStorySingleData?.descriptionRight}
             </div>
           </div>
-          <div className="w-[80%]">
+          <div className="w-full">
             <img
               src={photoStorySingleData?.mainImage}
               alt="placeholder"

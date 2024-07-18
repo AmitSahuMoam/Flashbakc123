@@ -5,15 +5,15 @@ import triangleImage from "../assets/images/indents/carouselTriangle.png";
 
 function FeaturedCollection() {
   return (
-    <div className="bg-texture sm:h-screen  bg-fixed ">
+    <div className="bg-texture h-full bg-fixed">
       <div className="bg-aboutus text-white text-6xl Boldy sm:pt-[13vh] pt-[5vh] p-5 flex justify-center items-center">
         <div className="flex flex-col sm:flex-row sm:w-[75%] justify-center items-center">
           <img
-            className="w-[90vw] max-w-[390px] h-[313px]  sm:h-full sm:w-[25vw] sm:min-w-[477px] object-cover"
+            className="w-[90vw] max-w-[390px] h-[313px] sm:h-full sm:w-[25vw] sm:min-w-[477px] object-cover"
             src="https://cdn.sanity.io/images/u8qx4arf/production/6c1d7502c2d96b086051b64cbe9f7e165a6cae7f-636x809.png"
             alt="hello"
           />
-          <div className="text-[40px] 2xl:text-[70px] sm:text-[48px] sm:w-[50%] Boldy flex-col flex  justify-center  mt-10 sm:mt-0 pl-[30px]">
+          <div className="text-[30px] 2xl:text-[70px] sm:text-[48px] sm:w-[50%] Boldy flex-col flex  justify-center  mt-10 sm:mt-0 pl-[30px]">
             Behind
             <div className="flex-row flex mt-[-5px]">
               <p className="Actonia 2xl:text[64px] lg:text-5xl text-3xl mb-auto lowercase ml-10">
