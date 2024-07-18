@@ -14,7 +14,7 @@ function Hero() {
           <p> WE ARE ONLY PIECES.</p>
         </div>
       </div>
-    </div>
+    </div>                                                            
   );
 }
 export default Hero;
