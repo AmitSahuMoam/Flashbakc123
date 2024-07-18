@@ -22,7 +22,7 @@ function Thoughts() {
                 </span>
               </div>
             </div>
-            <div className="Courier Prime text-[16px]  sm:text-[16px] 2xl:text-[18px] pb-15 lg:w-[80%] px-5 w-full lg:pt-10 pt-5 leading-normal">
+            <div className="Courier Prime text-[16px]  sm:text-[16px] 2xl:text-[20px] pb-15 sm:w-[80%] 2xl:w-[65%] px-5 w-full lg:pt-10 pt-5 leading-normal">
               <span className=" text-black lg:w-[50%]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing
               </span>
@@ -36,7 +36,7 @@ function Thoughts() {
                   <NavLink to="/testimonials#head3" className="">
                     <button
                       type="button"
-                      className="border-black border pt-1 px-2 rounded-md   hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300 ml-[-10px] 2xl:text-[18px] text-[16px] sm:text-[16px]"
+                      className="border-[#1c1c1c] border px-2 rounded-md   hover:text-[#1c1c1c] hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300 ml-[-10px] text-[20px] 2xl:h-[34px] 2xl:w-[134px] "
                     >
                       read more
                     </button>
@@ -59,7 +59,7 @@ function Thoughts() {
           <span className="text-[#1C1C1C] Actonia text-[30px] sm:text-[36px] 2xl:text-[64px] mb-12 mr-[-10px] sm:mr-[0]">our</span>
           <span className="text-[#FFCA00] Boldy text-[30px] sm:text-[48px] 2xl:text-[70px]">AWARDS</span>
           <span className="Actonia text-[30px] text-[#1C1C1C] sm:text-[36px] 2xl:text-[64px]">&</span>{" "}
-          <span className=" Boldy text-[30px] sm:text-[48px] 2xl:text-[70px]text-3xl text-[#1C1C1C]">
+          <span className=" Boldy text-[30px] sm:text-[48px] 2xl:text-[70px] text-3xl text-[#1C1C1C]">
             FEATURES
           </span>
         </div>

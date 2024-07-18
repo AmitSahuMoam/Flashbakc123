@@ -54,8 +54,8 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col lg:text-5xl 2xl:text-[64px] text-3xl Boldy text-white text-center mb-20 sm:mb-0 ">
-            <div className="flex flex-row lg:text-5xl 2xl:text-[64px] text-3xl Boldy text-white text-center pl-10 pt-[50px]">
+          <div className=" flex flex-col  text-[50px] text-3xl Boldy text-white text-center mb-20 sm:mb-0 ">
+            <div className="flex flex-row text-[50px] text-3xl Boldy text-white text-center pl-10 pt-[50px]">
               Lets Get
               <Link
                 to="/aboutus#contact"
