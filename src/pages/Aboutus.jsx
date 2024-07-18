@@ -58,7 +58,7 @@ function Aboutus() {
         <div className="flex flex-col sm:flex-row sm:w-[60%] w-full sm:mt-10">
           <div className="flex flex-col m-5 ">
             <p className="Actonia text-[#1C1C1C] text-[30px] sm:text-[36px] 2xl:text-[64px] mb-[-12px] leading-[35px] ml-1">our</p>
-            <p className="uppercase text-[#1C1C1C] text-[40px] sm:text-[48px] 2xl:text-[70px] Boldy leading-[50px] ">Flashbakc</p>
+          <p className="uppercase text-[#1C1C1C] text-[40px] sm:text-[48px] 2xl:text-[70px] Boldy lg:leading-[45px] sm:leading-[35px] 2xl:leading-[75px] ">Flashbakc</p>
 
             <p className="Courier Prime text-[#4A4A4A] text-[16px] 2xl:text-[18px] leading-normal">
               <br />
