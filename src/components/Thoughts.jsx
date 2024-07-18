@@ -49,7 +49,7 @@ function Thoughts() {
             <img
               src="https://cdn.sanity.io/images/u8qx4arf/production/78c9de117f57bebf63efab92cd665b4a8cf2801b-859x646.png"
               alt="Hello"
-              className="object-cover aspect-[4/3] sm:h-[35rem] w-[40rem] sm:min-w-[40rem]"
+              className="object-cover aspect-[4/3] sm:h-[35rem] w-[40rem] sm:min-w-[40rem] 2xl:min-w-[53rem]"
             />
           </div>
         </div>

@@ -20,9 +20,9 @@ function VideoStoryTile({ name, location, img, link }) {
             className="w-[540px]"
           />
         )}
-        <div className="font-bold  text-[#D8CAB1] Boldy text-lg mt-2">
+        <div className="font-bold  text-[#D8CAB1] Boldy text-lg mt-2 2xl:text-[24px]">
           {name}
-          <span className="ml-2 text-sm Courier Prime italic text-[#D8CAB1] ">
+          <span className="ml-2 text-sm Courier Prime italic text-[#EDECE7] opacity-50  2xl:text-[20px]  ">
             {location}
           </span>
         </div>

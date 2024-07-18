@@ -33,7 +33,7 @@ function Videos() {
         <NavLink to="/videostories#head1" className="mr-[20%]">
           <button
             type="button"
-            className="border-yellow-300 px-4 border pt-1 rounded-md mt-4 hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300"
+            className="border-yellow-300 px-4 border text-[20px] 2xl:h-[34px] 2xl:w-[192px] rounded-md mt-4 hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300"
           >
             see more videos
           </button>

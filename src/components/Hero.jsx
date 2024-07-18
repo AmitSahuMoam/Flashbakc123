@@ -10,7 +10,7 @@ function Hero() {
           </p>
           <span className=" text-nowrap Boldy text-white ">WHOLE THING.</span>
         </div>
-        <div className="Boldy text-white text-end 2xl:leading-[35px] leading-[15px]">
+        <div className="Boldy text-white text-end 2xl:leading-[55px] leading-[15px] pb-4">
           <p> WE ARE ONLY PIECES.</p>
         </div>
       </div>

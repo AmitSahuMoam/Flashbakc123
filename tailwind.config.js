@@ -41,6 +41,7 @@ export default {
         fontFamily: {
           boldy: ["boldy", "sans-serif"],
           oswald: ["Oswald", "sans-serif"],
+          
         },
         colors: {
           transparent: 'transparent',
