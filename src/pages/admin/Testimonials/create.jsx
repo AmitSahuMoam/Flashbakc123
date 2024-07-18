@@ -57,7 +57,7 @@ function TestimonialCreate() {
                   placeholder="First Person Name"
                   required
                   // eslint-disable-next-line react/jsx-props-no-spreading
-                  required={register("firstPersonName", { required: true })}
+                  {...register("firstPersonName", { required: true })}
                 />
                 {errors.firstPersonName && (
                   <p className="text-red-500 text-sm">First Name is required</p>
@@ -77,7 +77,7 @@ function TestimonialCreate() {
                   placeholder="Second Person Name"
                   required
                   // eslint-disable-next-line react/jsx-props-no-spreading
-                  required={register("secondPersonName", { required: true })}
+                  {...register("secondPersonName", { required: true })}
                 />
                 {errors.secondPersonName && (
                   <p className="text-red-500 text-sm">
@@ -96,7 +96,7 @@ function TestimonialCreate() {
                   placeholder="Title"
                   required
                   // eslint-disable-next-line react/jsx-props-no-spreading
-                  required={register("title", { required: true })}
+                  {...register("title", { required: true })}
                 />
                 {errors.title && (
                   <p className="text-red-500 text-sm">Title is required</p>
@@ -113,7 +113,7 @@ function TestimonialCreate() {
                   placeholder="Description"
                   required
                   // eslint-disable-next-line react/jsx-props-no-spreading
-                  required={register("description", { required: true })}
+                  {...register("description", { required: true })}
                 />
                 {errors.description && (
                   <p className="text-red-500 text-sm">
@@ -132,7 +132,7 @@ function TestimonialCreate() {
                   id="file-upload-helper-text"
                   helperText="SVG, PNG, JPG or GIF (MAX. 800x400px)."
                   // eslint-disable-next-line react/jsx-props-no-spreading
-                  required={register("image", { required: true })}
+                  {...register("image", { required: true })}
                 />
                 {errors.image && (
                   <p className="text-red-500 text-sm">Image is required</p>
