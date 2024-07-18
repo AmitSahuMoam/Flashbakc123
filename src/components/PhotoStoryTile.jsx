@@ -26,7 +26,7 @@ function PhotoStoryTile({ name, location, img, nameClass, locationClass, link })
         )}
         <div className="Boldy uppercase mt-4 text-[24px] text-[#1C1C1C]">
           <span className={nameClass}>{name}</span>
-          <span className={`ml-2 Courier Prime italic text-sm font-medium normal-case text-[20px] text-opacity-40 ${locationClass}`}>
+          <span className={`ml-2 Courier Prime italic normal-case text-[20px] text-opacity-40 ${locationClass}`}>
             {location}
           </span>
         </div>
