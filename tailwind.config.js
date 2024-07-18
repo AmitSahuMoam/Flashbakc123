@@ -26,6 +26,17 @@ export default {
           "url('/src/assets/images/aboutus/dust scratches light@2x.png')"
 
       },
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1800px',
+      },
+      // Add this section
+      breakpoints: {
+        tablet: '768px', // Make tablet breakpoint same as mobile
+      },
       theme: {
         fontFamily: {
           boldy: ["boldy", "sans-serif"],

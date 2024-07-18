@@ -30,7 +30,7 @@ function Photostoriessingle() {
       />
       <div className="bg-[#EDECE7] flex justify-center items-center">
         <div className="flex flex-col items-center w-[85%]">
-          <div className="text-5xl uppercase Boldy text-black text-center pt-10 pb-10">
+          <div className="text-5xl 2xl:text[70px] uppercase Boldy text-black text-center pt-10 pb-10">
             {photoStorySingleData?.title}
           </div>
           <div className=" Courier flex flex-col justify-around mb-10 sm:flex-row w-[100%] lg:w-[70%] ">

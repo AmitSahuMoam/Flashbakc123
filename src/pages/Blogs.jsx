@@ -28,33 +28,33 @@ function Blogs() {
             <div className="flex-1 flex-col m-5">
               <div className="flex flex-row sm:flex-col">
                 <div className="flex" >
-                  <p className="text-white font-extrabold uppercase sm:text-[48px] text-[40px]">
+                  <p className="text-white font-extrabold uppercase sm:text-[48px] 2xl:text-[70px] text-[40px]">
                     Rahul
                   </p>{" "}
-                  <p className="text-yellow-400 Actonia font-extrabold uppercase sm:text-[48px] text-[40px] mx-1 mt-1">
+                  <p className="text-yellow-400 Actonia font-extrabold uppercase sm:text-[48px] 2xl:text-[70px] text-[40px] mx-1 mt-1">
                     &
                   </p>
                 </div>
                 <div>
-                  <p className="text-white font-extrabold uppercase sm:text-[48px] text-[40px] sm:-mt-4">
+                  <p className="text-white font-extrabold uppercase sm:text-[48px] 2xl:text-[70px] text-[40px] sm:-mt-4">
                     Fabians
                   </p>
                 </div>
               </div>
               <div className="w-full flex justify-end">
-                <p className="Actonia text-yellow-400 sm:text-[36px] text-[30px] -mt-5">experiences</p>
+                <p className="Actonia text-yellow-400 sm:text-[36px] 2xl:text-[64px] text-[30px] -mt-5">experiences</p>
               </div>
             </div>
             <div className="flex-1 m-5">
-              <p className=" Courier text-[#D8CAB1] text-[16px] leading-normal">
-                <p className=" text-white text-[16px]">Rahul DSouza and Fabian Franco,</p>{" "}
+              <p className=" Courier text-[#D8CAB1] text-[16px] 2xl:text-[18px] leading-normal">
+                <p className=" text-white text-[16px] 2xl:text-[18px]">Rahul DSouza and Fabian Franco,</p>{" "}
                 both seasoned photographers with a shared passion for capturing
                 love stories, eagerly anticipate sharing their diverse
                 experiences in photographing weddings of all kinds.
               </p>
             </div>
             <div className="flex-1 m-5">
-              <p className=" Courier text-[#D8CAB1] text-[16px] leading-normal">
+              <p className=" Courier text-[#D8CAB1]  2xl:text-[18px] leading-normal">
                 From the tears of joy exchanged in intimate backyard ceremonies
                 to the exhilarating dance floors of grand destination
                 extravaganzas, theyve experienced the full gamut of wedding

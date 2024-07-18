@@ -44,7 +44,7 @@ function Aboutus() {
           backgroundImage: `url('https://cdn.sanity.io/images/u8qx4arf/production/5439c849afbfa3fe71b2ebb9d65e2134fe2a6588-2560x1305.png')`,
         }}
       >
-        <div className="w-full flex flex-row flex-wrap justify-end text-white uppercase text-[40px] sm:text-[48px] mb-10 pr-8 Boldy"
+        <div className="w-full flex flex-row flex-wrap justify-end text-white uppercase text-[40px] 2xl:text-[70px] sm:text-[48px] mb-10 pr-8 Boldy"
           style={{
             lineHeight: "1.2"
           }}
@@ -57,10 +57,10 @@ function Aboutus() {
       <div className="bg-dustTexture flex sm:flex-row flex-col justify-center p-5">
         <div className="flex flex-col sm:flex-row sm:w-[60%] w-full sm:mt-10">
           <div className="flex flex-col m-5 ">
-            <p className="Actonia text-[#1C1C1C] text-[30px] sm:text-[36px] mb-[-12px] leading-[35px] ml-1">our</p>
-            <p className="uppercase text-[#1C1C1C] text-[40px] sm:text-[48px] Boldy leading-[50px] ">Flashbakc</p>
+            <p className="Actonia text-[#1C1C1C] text-[30px] sm:text-[36px] 2xl:text-[64px] mb-[-12px] leading-[35px] ml-1">our</p>
+            <p className="uppercase text-[#1C1C1C] text-[40px] sm:text-[48px] 2xl:text-[70px] Boldy leading-[50px] ">Flashbakc</p>
 
-            <p className="Courier Prime text-[#4A4A4A] text-[16px] leading-normal">
+            <p className="Courier Prime text-[#4A4A4A] text-[16px] 2xl:text-[18px] leading-normal">
               <br />
               Hi! Welcome to Flashbakc Studios. Narrow roads, winding lanes,
               coconut grooves, fields on both sides, and you will find us
@@ -76,7 +76,7 @@ function Aboutus() {
             </p>
           </div>
           <div>
-            <p className="Courier Prime  text-[#4A4A4A] m-5 mt-7 text-[16px]">
+            <p className="Courier Prime  text-[#4A4A4A] m-5 mt-7 text-[16px] 2xl:text-[18px]">
               Rahul, working as a concept artist in a gaming studio and Fabian,
               pursuing his masters in Social work, kicked off a new journey of
               friendship.
@@ -104,13 +104,13 @@ function Aboutus() {
         id="questions"
       >
         <div className="flex flex-col justify-center items-center ml-[-5rem] sm:ml-0">
-          <div className=" text-white uppercase lg:text-5xl text-3xl tracking-tighter Boldy  flex flex-col justify-start w-full text-left">
-            <span className="Boldy text-[40px] sm:text-[48px] text-[#FFCA00] uppercase text">
+          <div className=" text-white uppercase lg:text-5xl 2xl:text[70px] text-3xl tracking-tighter Boldy  flex flex-col justify-start w-full text-left">
+            <span className="Boldy text-[40px] sm:text-[48px] 2xl:text-[70px]  text-[#FFCA00] uppercase text">
               questions
             </span>
             <div className="flex flex-row">
               <span className="Actonia text-[30px] sm:text-[36px] lowercase mr-3 ml-2 ">you</span>
-              <span className="Boldy text-[40px] sm:text-[48px] text-white uppercase text leading-[35px]">
+              <span className="Boldy text-[40px] sm:text-[48px]  2xl:text-[70px] text-white uppercase text leading-[35px]">
                 may have
               </span>
             </div>
@@ -163,7 +163,7 @@ function Aboutus() {
           />
         </Stack>
         <span
-          className='ml-2 mt-10 px-4 Courier Prime text-[16px] font-medium normal-case leading-normal text-[#FFFFFF]'
+          className='ml-2 mt-10 px-4 Courier Prime text-[16px] 2xl:text-[18px] font-medium normal-case leading-normal text-[#FFFFFF]'
         >
           Didn&apos;t find an answer to your question here? <br />
           Ask us directly through our {" "}

@@ -20,8 +20,8 @@ function Videos() {
     <div className="pt-10 bg-texture bg-fixed h-full bg-cover ">
       <div className="flex w-full ">
         <div className="flex flex-row ml-[20%] ">
-          <span className="Actonia text-white mb-auto text-[30px] sm:text-[36px] mt-2 ">through</span>
-          <span className="text-[#ffca00] ml-2 Boldy text-[40px] sm:text-[48px] mt-4">Videos</span>
+          <span className="Actonia text-white mb-auto text-[30px] sm:text-[36px] 2xl:text-[64px] mt-2 ">through</span>
+          <span className="text-[#ffca00] ml-2 Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">Videos</span>
           <img src={downarrow} alt="" className="w-[2vh] ml-1 mt-5" />
         </div>
       </div>
@@ -29,7 +29,7 @@ function Videos() {
         photoStoriesData={videoStoriesData}
         className="text-[#D8CAB1]"
       />
-      <div className="text-[16px] sm:text-[16px] border-yellow-400 Boldy cursor-pointer pb-10 ml-3 rounded-lg uppercase text-white w-full justify-end flex">
+      <div className="text-[16px] 2xl:text-[18px] sm:text-[16px] border-yellow-400 Boldy cursor-pointer pb-10 ml-3 rounded-lg uppercase text-white w-full justify-end flex">
         <NavLink to="/videostories#head1" className="mr-[20%]">
           <button
             type="button"

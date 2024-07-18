@@ -14,7 +14,7 @@ function QuestionAnswers({ question, answer }) {
           </span>
         ))}
       </p>
-      <p className="Courier Prime flex-[3] text-[#D8CAB1] Courier sm:max-w-[985px] text-[16px] leading-normal">
+      <p className="Courier Prime flex-[3] text-[#D8CAB1] Courier sm:max-w-[985px] 2xl:text-[18px] text-[16px] leading-normal">
         {answer}
       </p>
     </div> 

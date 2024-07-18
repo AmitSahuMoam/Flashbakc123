@@ -23,7 +23,7 @@ function Login() {
     <div className="bg-hero-pattern h-screen flex justify-center items-center">
       <div className="absolute inset-0 bg-black opacity-50 z-10" />
       <div className="bg-white w-[40%] rounded-2xl h-[50%] z-50 opacity-80">
-        <h1 className="text-black font-black text-5xl flex justify-center mt-7">
+        <h1 className="text-black font-black text-5xl  flex justify-center mt-7">
           Login
         </h1>
         <form onSubmit={handleSubmit(onSubmit)}>
