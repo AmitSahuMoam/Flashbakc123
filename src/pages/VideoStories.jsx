@@ -43,14 +43,14 @@ function VideoStories() {
       <div className="bg-[#1C1C1C] flex justify-center items-center text-white">
         <div className="flex flex-col items-center sm:w-[70%]">
           <div
-            className="text-[40px] sm:text-[48px] 2xl:text-[70px] uppercase font-extrabold Boldy tracking-normal text-center mt-10 p-3 text-white"
+            className="text-[40px] sm:text-[48px] 2xl:text-[70px] uppercase font-extrabold Boldy leading-[70px] tracking-normal text-center mt-10 p-3 text-white"
             style={{
-              lineHeight: "1.1",
+              lineHeight: "2",
             }}
           >
             NAMES ON A PAPER WE ARE NOT
           </div>
-          <div className="flex flex-col justify-around sm:flex-row py-10 pt-4 max-w-[100%] lg:w-[80vw] leading-normal">
+          <div className="flex flex-col justify-around sm:flex-row py-10 pt-4 max-w-[100%] lg:w-[100vw]] leading-normal">
             <div className="flex-1 text-[16px] 2xl:text-[20px] Courier mr-6 sm:ml-0 ml-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
