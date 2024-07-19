@@ -13,7 +13,7 @@ function FeaturedCollection() {
             src="https://cdn.sanity.io/images/u8qx4arf/production/6c1d7502c2d96b086051b64cbe9f7e165a6cae7f-636x809.png"
             alt="hello"
           />
-          <div className="text-[40px] 2xl:text-[70px] sm:text-[48px] sm:w-[50%] Boldy flex-col flex  justify-center  mt-10 sm:mt-0 pl-[40px]">
+          <div className="text-[40px] 2xl:text-[70px] sm:text-[48px] sm:w-[50%] Boldy flex-col flex  justify-center  mt-10 sm:mt-0 pl-[10px]">
             Behind
             <div className="flex-row flex mt-[-5px]">
               <p className="Actonia 2xl:text[64px] lg:text-5xl text-3xl mb-auto lowercase ml-10">
@@ -21,7 +21,7 @@ function FeaturedCollection() {
               </p>
               <p className="text-[#FFCA00] ml-2"> brand</p>
             </div>
-            <div className="text-lg flex-col flex mt-5 sm:pl-10 pl-0 leading-normal">
+            <div className="text-lg flex-col flex mt-5 sm:px-5 pl-0 leading-normal">
               <div className="Courier Prime text-[16px] 2xl:text-[20px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -38,7 +38,7 @@ function FeaturedCollection() {
                   {" "}
                   <button
                     type="button"
-                    className="border-yellow-300 text-[20px] border h-[34px] w-[176px] rounded-md px-2 py-1  hover:text-[#1c1c1c] hover:bg-yellow-300 hover:border-[#1c1c1c] transition-all ease-in duration-300 "
+                    className="border-yellow-300 text-[20px] border h-[34px] w-[176px] rounded-md   px-2 hover:text-[#1c1c1c] hover:bg-yellow-300 hover:border-[#1c1c1c] transition-all ease-in duration-300 py-1"
                   >
                     more about us
                   </button>

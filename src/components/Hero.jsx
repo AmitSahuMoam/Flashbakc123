@@ -4,7 +4,7 @@ function Hero() {
       <div className=" mt-auto ml-auto text-yellow-300 flex-col flex 2xl:pr-[100px]  ">
         <div className="Boldy flex flex-row">
           LOVE{" "}
-          <p className="Actonia lg:text-5xl 2xl:text-[64px] text-3xl  text-nowrap text-white ml-2 mr-2 2xl:mt-4 md:mt-4 sm:mt-4 lg:mt-2 pt-4">
+          <p className="Actonia lg:text-5xl 2xl:text-[64px] text-3xl  text-nowrap text-white ml-2 mr-2 2xl:mt-4 md:mt-4 s ">
             {" "}
             is the{" "}
           </p>                            

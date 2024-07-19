@@ -15,7 +15,7 @@ function Slider() {
   return (
       <div className="sm:pt-[50px] pt 2xl:pt-[125px] bg-[#EDECE7] p-5 justify-self-end  w-full 2xl:h-[954px]  overflow-hidden ">
         <div className="flex flex-col sm:flex-row  items-start sm:items-center justify-center ">
-        <div className="flex flex-row text-4xl justify-end mr-3 ">
+        <div className="flex flex-row text-4xl justify-end mr-3 sm:pl-8">
             <div className="flex flex-row">
               <span className="Actonia text-[#1C1C1C] mb-auto text-[30px] sm:text-[36px] 2xl:text-[64px] mr-1">
                 our
@@ -23,7 +23,7 @@ function Slider() {
             </div>
             <span className="text-[#1C1C1C] Boldy text-[30px] sm:text-[48px] 2xl:text-[70px] mt-4 pl-2">Stories</span>
           </div>
-          <div className="Courier Prime text-[16px] 2xl:text-[20px] sm:text-[16px] font-[#4A4A4A] max-w-4xl ">
+          <div className="Courier Prime text-[16px] 2xl:text-[20px] sm:text-[16px] font-[#4A4A4A] max-w-4xl sm:pl-10 ">
             are different and every couple is unique. Your moments become your
             life story and live from one generation to the next. Here are your
             stories through our particular way of seeing it
