@@ -22,10 +22,10 @@ function TestimonialTile({ name, title, content, img }) {
         />
       </div>
       <div>
-        <p className="Courier text-[#1C1C1C] text-[16px] 2xl:text-[20px] font-bold mt-2">
+        <p className="Courier text-[#1C1C1C] text-[16px] 2xl:text-[18px] font-bold mt-2">
           {title}
         </p>
-        <p className="Courier text-[#4A4A4A] text-[16px] 2xl:text-[20px] mt-2 leading-normal">
+        <p className="Courier text-[#4A4A4A] text-[16px] 2xl:text-[18px] mt-2 leading-normal">
           {isExpanded ? content : `${content.substring(0, 200)}...`}
         </p>
       </div>
