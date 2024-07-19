@@ -38,7 +38,7 @@ function FeaturedCollection() {
                   {" "}
                   <button
                     type="button"
-                    className="border-yellow-300 text-[20px] border h-[34px] w-[176px] rounded-md  px-2 hover:text-black hover:bg-yellow-300 hover:border-black transition-all ease-in duration-300"
+                    className="border-yellow-300 text-[20px] border h-[34px] w-[176px] rounded-md  px-1 hover:text-black hover:bg-yellow-300 hover:border-black transition-all ease-in duration-300 py-1"
                   >
                     more about us
                   </button>

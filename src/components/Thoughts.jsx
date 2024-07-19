@@ -36,7 +36,7 @@ function Thoughts() {
                   <NavLink to="/testimonials#head3" className="">
                     <button
                       type="button"
-                      className="border-[#1c1c1c] border px-2 rounded-md   hover:text-[#1c1c1c] hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300 ml-[-10px] text-[20px] 2xl:h-[34px] 2xl:w-[134px] "
+                      className="border-[#1c1c1c] border px-1 py-1 rounded-md   hover:text-[#1c1c1c] hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300 ml-[-10px] text-[20px] 2xl:h-[34px] 2xl:w-[134px] "
                     >
                       read more
                     </button>
