@@ -129,7 +129,7 @@ function NavBarSticky(props) {
         {isVisible && (
           <>
             {!open && (
-              <div className="flex justify-between items-center fixed top-5 right-2 px-5 navItems 2xl:pr-10 pr-5 pt-5 2xl:pt-10">
+              <div className="flex justify-between items-center fixed  right-2 px-5 navItems 2xl:pr-10 pr-5 pt-5 2xl:pt-10">
                 <div className="flex">
                   <Link to="/" className="flex nav__logo no-underline sm:hidden">
                     <div className="gap-10 Courier">
@@ -164,7 +164,7 @@ function NavBarSticky(props) {
                       </div>
                     </Link>
                   )}
-                  <div className="md:hidden ml-2 ">
+                  <div className="md:hidden ml-2 pb-10 ">
                     <IconButton
                       variant="outlined"
                       color="neutral"
