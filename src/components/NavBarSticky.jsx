@@ -78,7 +78,7 @@ function NavBarSticky(props) {
             <img src={logo} alt="" className="w-[10vh]" />
           </div>
         </Link>
-        <div className="flex flex-1 mt-4">
+        <div className="flex flex-1 2xl:mt-8 mt-4">
           <ul className="nav__links text-white Courier Prime ml-auto mr-auto space-x-4 normal-case">
             <li className="nav__link">
               <Dropdown
@@ -129,7 +129,7 @@ function NavBarSticky(props) {
         {isVisible && (
           <>
             {!open && (
-              <div className="flex justify-between items-center fixed top-5 right-2 px-5 navItems">
+              <div className="flex justify-between items-center fixed top-5 right-2 px-5 navItems 2xl:pr-10 pr-5 pt-5 2xl:pt-10">
                 <div className="flex">
                   <Link to="/" className="flex nav__logo no-underline sm:hidden">
                     <div className="gap-10 Courier">
