@@ -51,7 +51,7 @@ function Aboutus() {
         >
           <p className="text-[#FFCA00]">Friendly.</p>
           <p className="sm:mr-2 ml-2">Relaxed.</p>
-          <p className="text-[#FFCA00]">Stress-Free</p>
+          <p className="text-[#FFCA00]">Stress-Free.</p>
         </div>
       </div>
       <div className="bg-dustTexture flex sm:flex-row flex-col justify-center p-5">
