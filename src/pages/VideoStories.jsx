@@ -71,7 +71,7 @@ function VideoStories() {
           </div>
 
           <div className="Courier pb-[50px] flex justify-center">
-            <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-6 gap-0 max-w-[90%] ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-6 gap-0 max-w-[90%] lg:w-[90vw]">
               {videoStoriesData.map((videoStory, index) => (
                 <div className="flex aspect-video justify-center">
                   <PhotoStoryTile
