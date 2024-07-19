@@ -12,6 +12,7 @@ function BigSlider() {
       showArrows={false}
       showStatus={false}
       autoPlay
+      touchMoveVertically={false}
       infiniteLoop
     >
       <div>
