@@ -13,22 +13,22 @@ function Slider() {
   }, []);
 
   return (
-    <div className="pt-[50px] pt 2xl:pt-[125px] bg-[#EDECE7] p-5  w-full 2xl:h-[954px]  overflow-hidden ">
-      <div className="flex flex-col sm:flex-row  items-start sm:items-center justify-center max-w-[80%] ">
-      <div className="flex flex-row text-4xl justify-end mr-3 ">
-          <div className="flex flex-row">
-            <span className="Actonia text-[#1C1C1C] mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] ">
-              our
-            </span>
+      <div className="sm:pt-[50px] pt 2xl:pt-[125px] bg-[#EDECE7] p-5 justify-self-end  w-full 2xl:h-[954px]  overflow-hidden ">
+        <div className="flex flex-col sm:flex-row  items-start sm:items-center justify-center ">
+        <div className="flex flex-row text-4xl justify-end mr-3 ">
+            <div className="flex flex-row">
+              <span className="Actonia text-[#1C1C1C] mb-auto text-[30px] sm:text-[36px] 2xl:text-[64px] mr-1">
+                our
+              </span>
+            </div>
+            <span className="text-[#1C1C1C] Boldy text-[30px] sm:text-[48px] 2xl:text-[70px] mt-4">Stories</span>
           </div>
-          <span className="text-[#1C1C1C] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4  ">Stories</span>
+          <div className="Courier Prime text-[16px] 2xl:text-[18px] sm:text-[16px] font-[#4A4A4A] max-w-4xl ">
+            are different and every couple is unique. Your moments become your
+            life story and live from one generation to the next. Here are your
+            stories through our particular way of seeing it
+          </div>
         </div>
-        <div className="Courier Prime text-[16px] 2xl:text-[20px] sm:text-[16px] font-[#4A4A4A] pt-[35px] items-center justify-center text-center">
-  are different and every couple is unique. Your moments become your
-  life story and live from one generation to the next. Here are your
-  stories through our particular way of seeing it
-</div>
-      </div>
       <div className="flex justify-center items-center 2xl:h-[590px]">
         <SlideShow photoStoriesData={photoStoriesData} className="text-black" />
       </div>
