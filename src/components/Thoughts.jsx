@@ -23,7 +23,7 @@ function Thoughts() {
               </div>
             </div>
             <div className="Courier Prime text-[16px]  sm:text-[16px] 2xl:text-[20px] pb-15 lg:w-[80%] px-5 w-full lg:pt-10 pt-5 leading-normal">
-              <span className=" text-[#1c1c1c] lg:w-[50%]">
+              <span className=" text-[#1c1c1c] lg:w-[50%] font-semibold">
                 Lorem ipsum dolor sit amet, consectetur adipiscing
               </span>
               <p className="w-full text-[#4A4A4A]">
