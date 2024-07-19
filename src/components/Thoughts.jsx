@@ -9,15 +9,15 @@ function Thoughts() {
           <div className="flex-1 flex flex-col flex-nowrap z-30 items-center">
             <div className="w-full flex flex-col justify-center items-start sm:items-center">
               <div className="flex flex-row justify-self-start">
-                <p className="Actonia text-white text-[30px] sm:text-[36px] 2xl:text-[64px] pr-2 mt-[-20px] sm:ml-[-2vw] ml-5"> our </p>
+                <p className="Actonia text-white text-[30px] sm:text-[36px] 2xl:text-[64px] pr-2 mt-[-5px] sm:ml-[-2vw] ml-5"> our </p>
                 <span className="text-nowrap text-[30px] sm:text-[48px] 2xl:text-[70px] Boldy -ml-1">HAPPY COUPLES</span>
               </div>
               <div className="flex flex-row  justify-self-end  w-min ml-[20%] mt-2">
-                <p className="Actonia mb-auto sm:pl-[15vh] text-[30px] sm:text-[36px] 2xl:text-[64px]  ml-8 mt-[-15px]">
+                <p className="Actonia mb-auto sm:pl-[15vh] text-[30px] sm:text-[36px] 2xl:text-[64px]  ml-8 mt-[-8px]">
                   {" "}
                   and{" "}
                 </p>{" "}
-                <span className="text-nowrap Boldy text-white text-[30px] sm:text-[48px] 2xl:text-[70px] ml-1">
+                <span className="text-nowrap Boldy text-white text-[30px] sm:text-[48px] 2xl:text-[70px] ml-1 leading-4">
                   THEIR THOUGHTS{" "}
                 </span>
               </div>
