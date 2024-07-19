@@ -59,7 +59,7 @@ function Thoughts() {
           <span className="text-[#1C1C1C] Actonia text-[30px] sm:text-[36px] 2xl:text-[64px] mb-12 mr-[-10px] sm:mr-[0]">our</span>
           <span className="text-[#FFCA00] Boldy text-[30px] sm:text-[48px] 2xl:text-[70px]">AWARDS</span>
           <span className="Actonia text-[30px] text-[#1C1C1C] sm:text-[36px] 2xl:text-[64px]">&</span>{" "}
-          <span className=" Boldy text-[30px] sm:text-[48px] 2xl:text-[70px]text-3xl text-[#1C1C1C]">
+          <span className=" Boldy text-[30px] sm:text-[48px] 2xl:text-[70px] text-3xl text-[#1C1C1C]">
             FEATURES
           </span>
         </div>
