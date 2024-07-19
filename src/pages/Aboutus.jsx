@@ -103,7 +103,7 @@ function Aboutus() {
         className="bg-texture pt-[50px] pb-[50px]  flex flex-col justify-start sm:justify-center items-center min-h-screen"
         id="questions"
       >
-        <div className="flex flex-col justify-center items-center ml-[-5rem] sm:ml-0">
+        <div className="flex flex-col justify-center items-center ml-2 sm:ml-0">
           <div className=" text-white uppercase lg:text-5xl 2xl:text[70px] text-3xl tracking-tighter Boldy  flex flex-col justify-start w-full text-left sm:py-[30px] 2xl:py-[50px] ">
             <span className="Boldy text-[40px] sm:text-[48px] 2xl:text-[70px]  text-[#FFCA00] uppercase text">
               questions
