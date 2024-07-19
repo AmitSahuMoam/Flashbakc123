@@ -13,15 +13,12 @@ function BigSlider() {
       showStatus={false}
       autoPlay
       infiniteLoop
-      stopPropagation={true}
-      touchAction="pan-y"
-      
     >
       <div>
         <img
           src="https://cdn.sanity.io/images/u8qx4arf/production/8b519908577c79c5b311f73514bf3d9535b22b04-1200x800.jpg"
           alt="Slide 1"
-          className="w-[100%] h-[800px] object-cover"
+          className="w-full h-[80vh] object-cover"
         />
       </div>
       <div>
@@ -52,8 +49,6 @@ function BigSlider() {
           className="w-full h-[80vh] object-cover"
         />
       </div>
-
-
     </Carousel>
   );
 }
