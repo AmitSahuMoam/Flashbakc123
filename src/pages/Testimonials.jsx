@@ -29,23 +29,22 @@ function Testimonials() {
         />
       </div>
       <div className="bg-testimonials flex flex-col justify-center items-center">
-        <div className="sm:w-1/2 flex justify-center items-center flex-col pt-4">
-        <div className="flex flex-row text-4xl pt-4 justify-end">
-          <div className="flex flex-row">
-            <span className="Actonia text-[#FFFFFF] mb-auto text-[30px] sm:text-[36px] 2xl:text-[64px] mr-1">
-              our
-            </span>
-          </div>
-          <span className="text-[#1C1C1C] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">Happy Couples</span>
-        </div>
-        <div className="flex flex-row text-4xl pb-4 justify-end">
-          <div className="flex flex-row">
-            <span className="Actonia text-[#1C1C1C] mb-auto text-[30px] sm:text-[36px] 2xl:text-[64px] mr-1">
-              and
-            </span>
-          </div>
-          <span className="text-[#FFFFFF] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">THEIR THOUGHTS</span>
-        </div>
+        <div className="sm:w-1/2 flex justify-center items-center flex-col py-[40px] 2xl:py-[50px] ">
+        <div className="w-full flex flex-col justify-center items-start sm:items-center">
+              <div className="flex flex-row justify-self-start leading-[20px] pt-[30px] 2xl:pt-[50px] ">
+                <p className="Actonia text-white text-[30px] sm:text-[36px] 2xl:text-[64px] "> our </p>
+                <span className="text-nowrap text-[30px] text-[#1c1c1c] sm:text-[48px] 2xl:text-[70px] Boldy">HAPPY COUPLES</span>
+              </div>
+              <div className="flex flex-row  justify-self-end  w-min ml-[20%] pb-[30px] 2xl:pb-[50px] ">
+                <p className="Actonia sm:pl-[5vh] text-[30px] sm:text-[36px] 2xl:text-[64px]    text-[#1c1c1c]">
+                  {" "}
+                  and{" "}
+                </p>{" "}
+                <span className="text-nowrap Boldy text-white text-[30px] sm:text-[48px] 2xl:text-[70px] ml-1">
+                  THEIR THOUGHTS{" "}
+                </span>
+              </div>
+            </div>
           {testimonialsData?.map((item, index) => (
             <div>
               <TestimonialTile
