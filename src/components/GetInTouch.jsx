@@ -66,7 +66,7 @@ function GetInTouch() {
           Get in touch with us
         </span>
         <br />
-        <span className="text-[16px] 2xl:text-[20px] Courier text-[#4A4A4A] ">required fields are marked*</span>
+        <span className="text-[16px] 2xl:text-[16px] Courier text-[#4A4A4A] ">required fields are marked*</span>
 
         <div className="Courier text-[16px] 2xl:text-[20px] justify-start flex flex-col items-start mt-5 text-[#1C1C1C]">
           <span>What services are you looking for?</span>
@@ -116,7 +116,7 @@ function GetInTouch() {
               type="text"
               name="name"
               placeholder="Your Name*"
-              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5 text-[#A18E6A]"
+              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5 text-[#1c1c1c]"
               onChange={handleChange}
             />
 
@@ -124,7 +124,7 @@ function GetInTouch() {
               type="text"
               name="email"bg
               placeholder="Your Email*"
-              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5 text-[#A18E6A]"
+              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5 text-[#1c1c1c]"
               onChange={handleChange}
             />
 
@@ -132,7 +132,7 @@ function GetInTouch() {
               type="text"
               name="phone"
               placeholder="Your Phone*"
-              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded mb-5 text-[#A18E6A]"
+              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded mb-5 text-[#1c1c1c]"
               onChange={handleChange}
             />
 
@@ -140,7 +140,7 @@ function GetInTouch() {
               type="text"
               name="guestCount"
               placeholder="Estimated Guest Count*"
-              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded mb-5 text-[#A18E6A]"
+              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded mb-5 text-[##1c1c1c]"
               onChange={handleChange}
             />
 
@@ -151,7 +151,7 @@ function GetInTouch() {
               onChange={handleChange}
             />
 
-            <div className="Courier w-full flex justify-start text-[#A18E6A] ">
+            <div className="Courier w-full flex justify-start text-[#1c1c1c] ">
               <span className="text-[#4A4A4A]">
                 Please describe in length the details of the wedding
               </span>
@@ -161,7 +161,7 @@ function GetInTouch() {
               type="text"
               name="location"
               placeholder="Location of the wedding*"
-              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mt-5 mb-5 text-[#A18E6A]"
+              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mt-5 mb-5 text-[#1c1c1c]"
               onChange={handleChange}
             />
 
@@ -169,12 +169,12 @@ function GetInTouch() {
               type="text"
               name="eventDates"
               placeholder="Event Dates*"
-              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5 text-[#A18E6A]"
+              className="Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5 text-[#1c1c1c]"
               onChange={handleChange}
             />
 
             <button
-              className="border-[1px] border-[#1c1c1c] text-[#1c1c1c] p-3 rounded uppercase text-[16px] 2xl:text-[20px] sm:mb-20 mb-10 hover:text-[#1c1c1c] hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300"
+              className="border-[1px] border-[#1c1c1c] text-[#1c1c1c] p-3 rounded uppercase text-[16px] 2xl:text-[20px] sm:mb-20 mb-10 hover:text-[#1c1c1c] hover:bg-#FFCA00 hover:border-[#FFCA00] transition-all ease-in duration-300"
               type="submit"
             >
               <img src="https://cdn.sanity.io/images/u8qx4arf/production/ba8d8f59622f4d3229f813b582c5f554356c3a75-85x17.svg" alt="Submit" />
