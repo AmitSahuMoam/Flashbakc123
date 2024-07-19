@@ -109,8 +109,8 @@ function Aboutus() {
               questions
             </span>
             <div className="flex flex-row">
-              <span className="Actonia text-[40px] sm:text-[36px] lowercase mr-3 ml-2 ">you</span>
-              <span className="Boldy text-[40px] sm:text-[48px]  2xl:text-[70px] text-white uppercase text leading-[35px]">
+              <span className="Actonia text-[40px] 2xl:text-[64px] 2xl:leading-[50px] sm:text-[36px] lowercase mr-3 ml-2 ">you</span>
+              <span className="Boldy text-[40px] sm:text-[48px]  2xl:text-[70px] text-white uppercase text leading-[35px] 2xl:leading-[50px]">
                 may have
               </span>
             </div>

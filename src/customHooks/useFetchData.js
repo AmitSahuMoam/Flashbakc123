@@ -6,7 +6,7 @@ import { supabase } from "../supabaseClient/supabaseClient";
 const QUESTION_ITEMS_PER_PAGE = 4;
 const PHOTO_STORY_ITEMS_PER_PAGE = 8;
 const VIDEO_STORY_ITEMS_PER_PAGE = 6;
-const TESTIMONIAL_PER_PAGE = 3;
+const TESTIMONIAL_PER_PAGE = 6;
 
 const useFetchData = () => {
   const [photoStoriesData, setPhotoStoriesData] = useState([]);
