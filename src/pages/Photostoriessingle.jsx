@@ -25,7 +25,7 @@ function Photostoriessingle() {
       <div
         className="h-[100vh] bg-cover bg-center flex flex-col justify-end"
         style={{
-          backgroundImage: `url(${photoStorySingleData?.hero})`,
+          backgroundImage: `url(${photoStorySingleData?.image})`,
         }}
       />
       <div className="bg-[#EDECE7] flex justify-center items-center">
@@ -41,40 +41,45 @@ function Photostoriessingle() {
               {photoStorySingleData?.descriptionRight}
             </div>
           </div>
-          <div className="w-full">
+          {/* <div className="w-full">
             <img
               src={photoStorySingleData?.mainImage}
               alt="placeholder"
               className="w-full h-auto"
             />
-          </div>
-          <div className = "h-[100px]">
-          <div className=" bg-[#4A4A4A] h-[1.5px] border-[#4A4A4A] w-full border " />
+          </div> */}
+          <div className="h-[100px]">
+            <div className=" bg-[#4A4A4A] h-[1.5px] border-[#4A4A4A] w-full border " />
           </div>
           {photoStoryNextPrevious != null ? (
             <div className="w-full mt-10 pb-2">
+              {console.log(photoStoryNextPrevious)}
               <div className=" bg-[#4A4A4A] h-[1.5px] border-[#4A4A4A] w-full border " />
               <div className="w-full justify-between flex flex-row">
-              {photoStoryNextPrevious[0] != null ? (
+                {photoStoryNextPrevious[0] != null ? (
                   <div className="flex items-end flex-row-reverse">
                     <div className="flex flex-col items-start">
-                      <p className="text-sm italic text-[#1C1C1C] font-extralight">Previous</p>
+                      <p className="text-sm italic text-[#1C1C1C] font-extralight">
+                        Previous
+                      </p>
                       <a
-                        href={`/photostories/${parseInt(id) + 1}`}
+                        href={`/photostories/${parseInt(id) - 1}`}
                         className="text-[32px] Boldy text-[#1C1C1C]"
                       >
                         {`${photoStoryNextPrevious[0].firstPersonName} + ${photoStoryNextPrevious[0].secondPersonName}`}
                       </a>
                     </div>
-                    <ArrowCircleLeftOutlinedIcon className="mb-4 mr-2"/>
+                    <ArrowCircleLeftOutlinedIcon className="mb-4 mr-2" />
                   </div>
                 ) : (
-                  <div />
+                  <div></div>
                 )}
                 {photoStoryNextPrevious[1] != null ? (
                   <div className="flex flex-row items-end">
                     <div className="flex flex-col items-end">
-                      <p className="text-sm italic text-[#1C1C1C] font-extralight">Next</p>
+                      <p className="text-sm italic text-[#1C1C1C] font-extralight">
+                        Next
+                      </p>
                       <a
                         href={`/photostories/${parseInt(id) + 1}`}
                         className="text-[32px] Boldy text-[#1C1C1C]"
@@ -82,10 +87,10 @@ function Photostoriessingle() {
                         {`${photoStoryNextPrevious[1].firstPersonName} + ${photoStoryNextPrevious[1].secondPersonName}`}
                       </a>
                     </div>
-                    <ArrowCircleRightOutlinedIcon className="mb-4 ml-2"/>
+                    <ArrowCircleRightOutlinedIcon className="mb-4 ml-2" />
                   </div>
                 ) : (
-                  <div />
+                  <div></div>
                 )}
               </div>
             </div>
