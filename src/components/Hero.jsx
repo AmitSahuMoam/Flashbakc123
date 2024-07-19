@@ -4,13 +4,13 @@ function Hero() {
       <div className=" mt-auto ml-auto text-yellow-300 flex-col flex 2xl:pr-[100px]  ">
         <div className="Boldy flex flex-row">
           LOVE{" "}
-          <p className="Actonia lg:text-5xl 2xl:text-[64px] text-3xl  text-nowrap text-white ml-2 mr-2 2xl:mt-4 mt-2">
+          <p className="Actonia lg:text-5xl 2xl:text-[64px] text-3xl  text-nowrap text-white ml-2 mr-2 2xl:mt-4 lg:mt-2 mt-4">
             {" "}
             is the{" "}
           </p>                            
           <span className=" text-nowrap Boldy text-white ">WHOLE THING.</span>
         </div>
-        <div className="Boldy text-white text-end 2xl:leading-[55px] leading-[15px] pb-4">
+        <div className="Boldy text-white text-end 2xl:leading-[55px] lg:leading-[30px] leading-[15px] pb-4">
           <p> WE ARE ONLY PIECES.</p>
         </div>
       </div>
