@@ -42,7 +42,7 @@ function Blogs() {
                 </div>
               </div>
               <div className="w-full flex justify-end">
-                <p className="Actonia text-yellow-400 sm:text-[36px] 2xl:text-[64px] text-[30px] -mt-5">experiences</p>
+                <p className="Actonia text-yellow-400 sm:text-[36px] 2xl:text-[64px] text-[40px] -mt-5">experiences</p>
               </div>
             </div>
             <div className="flex-1 m-5">

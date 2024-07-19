@@ -57,7 +57,7 @@ function Aboutus() {
       <div className="bg-dustTexture flex sm:flex-row flex-col justify-center p-5">
         <div className="flex flex-col sm:flex-row sm:w-[60%] w-full sm:mt-10">
           <div className="flex flex-col m-5 ">
-            <p className="Actonia text-[#1C1C1C] text-[30px] sm:text-[36px] 2xl:text-[64px] mb-[-12px] leading-[35px] ml-1">our</p>
+            <p className="Actonia text-[#1C1C1C] text-[40px] sm:text-[36px] 2xl:text-[64px] mb-[-12px] leading-[35px] ml-1">our</p>
           <p className="uppercase text-[#1C1C1C] text-[40px] sm:text-[48px] 2xl:text-[70px] Boldy lg:leading-[45px] sm:leading-[35px] 2xl:leading-[75px] ">Flashbakc</p>
 
             <p className="Courier Prime text-[#4A4A4A] text-[16px] 2xl:text-[18px] leading-normal">
@@ -109,7 +109,7 @@ function Aboutus() {
               questions
             </span>
             <div className="flex flex-row">
-              <span className="Actonia text-[30px] sm:text-[36px] lowercase mr-3 ml-2 ">you</span>
+              <span className="Actonia text-[40px] sm:text-[36px] lowercase mr-3 ml-2 ">you</span>
               <span className="Boldy text-[40px] sm:text-[48px]  2xl:text-[70px] text-white uppercase text leading-[35px]">
                 may have
               </span>

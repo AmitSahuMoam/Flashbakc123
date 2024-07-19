@@ -24,9 +24,9 @@ function Footer() {
   ];
   return (
     <>
-      {/* <div className="absolute w-full flex justify-center z-50 h-[50px] mt-[-48px] ">
-        <img src={footerTriangle} alt="Triangle" className="w-full h-auto" />
-      </div> */}
+       <div className="absolute w-full flex justify-center z-50 h-[50px] mt-[-48px] ">
+        <img src="https://cdn.sanity.io/images/u8qx4arf/production/5d4746e18745c5639d98db6084ea19127dff30d4-2560x70.png" alt="Triangle" className="w-full h-auto" />
+      </div> 
       <footer className="footer bg-footertext">
         <div className="min-h-[300px] w-full flex flex-col sm:flex-row justify-between items-center px-[7%] ">
           <div className="flex-1">
@@ -54,8 +54,8 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col  text-[50px] text-3xl Boldy text-white text-center mb-20 sm:mb-0 ">
-            <div className="flex flex-row text-[50px] text-3xl Boldy text-white text-center pl-10 pt-[50px]">
+          <div className=" flex flex-col  text-[50px]  text-3xl Boldy text-white text-center mb-20 sm:mb-0 ">
+            <div className="flex flex-row text-[50px]  text-3xl Boldy text-white text-center pl-10 pt-[50px]">
               Lets Get
               <Link
                 to="/aboutus#contact"
@@ -68,7 +68,7 @@ function Footer() {
               </Link>
             </div>
 
-            <div className="text-yellow-300 pl-5" key={CurrentStuff}>
+            <div className="text-yellow-300 pl-5 mt-3" key={CurrentStuff}>
               <MovingComponent
                 id="moving"
                 type="fadeInFromBottom"

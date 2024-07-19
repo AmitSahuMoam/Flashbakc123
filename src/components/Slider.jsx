@@ -17,11 +17,11 @@ function Slider() {
       <div className="flex flex-col sm:flex-row  items-start sm:items-center justify-center ">
       <div className="flex flex-row text-4xl justify-end mr-3 ">
           <div className="flex flex-row">
-            <span className="Actonia text-[#1C1C1C] mb-auto text-[30px] sm:text-[36px] 2xl:text-[64px] mr-1">
+            <span className="Actonia text-[#1C1C1C] mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] mr-1">
               our
             </span>
           </div>
-          <span className="text-[#1C1C1C] Boldy text-[30px] sm:text-[48px] 2xl:text-[70px] mt-4">Stories</span>
+          <span className="text-[#1C1C1C] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">Stories</span>
         </div>
         <div className="Courier Prime text-[16px] 2xl:text-[18px] sm:text-[16px] font-[#4A4A4A] max-w-4xl ">
           are different and every couple is unique. Your moments become your
@@ -36,11 +36,11 @@ function Slider() {
         <div className="flex flex-row text-4xl pt-4 justify-end">
           <div className="flex flex-row">
             <img src={uparrow} alt="" className="w-[2vh] mb-3 mr-1" />{" "}
-            <span className="Actonia text-black mb-auto text-[30px] sm:text-[36px] 2xl:text-[64px] mr-1">
+            <span className="Actonia text-black mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] mr-1">
               through
             </span>
           </div>
-          <span className="text-[#ffca00] Boldy text-[30px] sm:text-[48px] 2xl:text-[70px] mt-4">Photos</span>
+          <span className="text-[#ffca00] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">Photos</span>
         </div>
         <div className="text-[16px] sm:text-[16px] 2xl:text-[18px] px-3 border-yellow-400 Boldy cursor-pointer ml-6 rounded-lg uppercase text-black text-right mt-4">
           <NavLink to="/photostories#head">

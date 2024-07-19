@@ -17,9 +17,9 @@ export default {
         aboutbrand:
           "url('/src/assets/images/about.svg')",
         "texture":
-          "url('https://cdn.sanity.io/images/u8qx4arf/production/d718ac34b04dcb168e25501072a0ca5aa1baa1d8-5120x2194.png')",
+          "url('https://cdn.sanity.io/images/u8qx4arf/production/a8600cc20100f117f460d653a7b50cea403252e2-5120x2194.png')",
         "footertext":
-          "url('https://cdn.sanity.io/images/u8qx4arf/production/d718ac34b04dcb168e25501072a0ca5aa1baa1d8-5120x2194.png')",
+          "url('https://cdn.sanity.io/images/u8qx4arf/production/b3a61c6581a8288b51d5dd165e33a6b3f546f904-2560x476.png')",
         "mywed":
           "url('/src/assets/images/mywed.png')",
         dustTexture:

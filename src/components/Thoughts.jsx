@@ -7,17 +7,17 @@ function Thoughts() {
       <div className="bg-dustTexture lg:pt-20 pt-10 lg:pb-20 flex sm:flex-row justify-center items-center">
         <div className="sm:text-5xl 2xl:text[70px] text-3xl text-black Boldy flex-col flex sm:flex-row justify-center items-center lg:w-[70vw]">
           <div className="flex-1 flex flex-col flex-nowrap z-30 items-center">
-            <div className="w-full flex flex-col justify-center items-start sm:items-center">
+            <div className="w-full flex flex-col  items-start ">
               <div className="flex flex-row justify-self-start">
-                <p className="Actonia text-white text-[30px] sm:text-[36px] 2xl:text-[64px] pr-2 mt-[-20px] sm:ml-[-2vw] ml-5"> our </p>
-                <span className="text-nowrap text-[30px] sm:text-[48px] 2xl:text-[70px] Boldy -ml-1">HAPPY COUPLES</span>
+                <p className="Actonia text-white text-[40px] sm:text-[36px] 2xl:text-[64px] pr-2 mt-[-15px]  ml-3"> our </p>
+                <span className="text-nowrap text-[40px] sm:text-[48px] 2xl:text-[70px] Boldy ">HAPPY COUPLES</span>
               </div>
-              <div className="flex flex-row  justify-self-end  w-min ml-[20%] mt-2">
-                <p className="Actonia mb-auto sm:pl-[15vh] text-[30px] sm:text-[36px] 2xl:text-[64px]  ml-8 mt-[-15px]">
+              <div className="flex flex-row  justify-self-end  w-min ml-[7%] mt-2">
+                <p className="Actonia mb-auto sm:pl-[15vh] text-[40px] sm:text-[36px] 2xl:text-[64px]  ml-8 mt-[-15px]">
                   {" "}
                   and{" "}
                 </p>{" "}
-                <span className="text-nowrap Boldy text-white text-[30px] sm:text-[48px] 2xl:text-[70px] ml-1">
+                <span className="text-nowrap Boldy text-white text-[40px] sm:text-[48px] 2xl:text-[70px] ml-1">
                   THEIR THOUGHTS{" "}
                 </span>
               </div>
@@ -56,10 +56,10 @@ function Thoughts() {
       </div>
       <div className="bg-[#EDECE7]">
         <div className="h-[15vh] pt-20 flex text-md sm:flex-row justify-center items-center text-3xl sm:text-3xl  Boldy bg-cover gap-2 pb-10">
-          <span className="text-[#1C1C1C] Actonia text-[30px] sm:text-[36px] 2xl:text-[64px] mb-12 mr-[-10px] sm:mr-[0]">our</span>
-          <span className="text-[#FFCA00] Boldy text-[30px] sm:text-[48px] 2xl:text-[70px]">AWARDS</span>
-          <span className="Actonia text-[30px] text-[#1C1C1C] sm:text-[36px] 2xl:text-[64px]">&</span>{" "}
-          <span className=" Boldy text-[30px] sm:text-[48px] 2xl:text-[70px] text-3xl text-[#1C1C1C]">
+          <span className="text-[#1C1C1C] Actonia text-[40px] sm:text-[36px] 2xl:text-[64px] mb-12 mr-[-10px] sm:mr-[0]">our</span>
+          <span className="text-[#FFCA00] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px]">AWARDS</span>
+          <span className="Actonia text-[40px] text-[#1C1C1C] sm:text-[36px] 2xl:text-[64px]">&</span>{" "}
+          <span className=" Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] text-3xl text-[#1C1C1C]">
             FEATURES
           </span>
         </div>

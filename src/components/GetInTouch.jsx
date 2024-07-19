@@ -62,7 +62,7 @@ function GetInTouch() {
           </p>
         </div>
 
-        <span className="text-[24px] sm:text-[30px] uppercase text-[#FFCA00] Boldy leading-[15px]">
+        <span className="text-[24px] sm:text-[40px] uppercase text-[#FFCA00] Boldy leading-[15px]">
           Get in touch with us
         </span>
         <br />

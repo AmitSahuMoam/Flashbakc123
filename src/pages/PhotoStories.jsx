@@ -37,7 +37,7 @@ function PhotoStories() {
       </div>
       <div className="bg-[#EDECE7] flex justify-center items-center">
         <div className="flex flex-col items-center w-[90%]">
-          <div className="sm:text-5xl 2xl:text[70px] text-4xl uppercase Boldy text-black text-center py-6">
+          <div className="sm:text-5xl 2xl:text-[70px] text-4xl uppercase Boldy text-black text-center py-6">
          <div> Love &nbsp;<span className="Actonia lowercase leading-[15px] 2xl:text[64px]">is the</span> whole
             thing.</div> <div className = "leading-[45px] pb-4 "> we are only pieces.</div>
           </div>
