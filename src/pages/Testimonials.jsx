@@ -1,21 +1,31 @@
 import { useEffect } from "react";
-import Pagination from '@mui/material/Pagination';
-import PaginationItem from '@mui/material/PaginationItem';
-import Stack from '@mui/material/Stack';
-import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
-import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
+import Pagination from "@mui/material/Pagination";
+import PaginationItem from "@mui/material/PaginationItem";
+import Stack from "@mui/material/Stack";
+import ArrowCircleLeftOutlinedIcon from "@mui/icons-material/ArrowCircleLeftOutlined";
+import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
 import Header from "../components/Header";
 import TestimonialTile from "../components/TestimonialTile";
-import useFetchData from "../customHooks/useFetchData";
+import useFetchData, {
+  TESTIMONIAL_PER_PAGE,
+} from "../customHooks/useFetchData";
 
-import styles from '../sass/testimonials/_testimonials.module.scss';
+import styles from "../sass/testimonials/_testimonials.module.scss";
 
 function Testimonials() {
-  const { testimonialsData, fetchTestimonials } = useFetchData();
+  const {
+    testimonialsData,
+    fetchTestimonials,
+    fetchAllTestimonials,
+    testimonialsAllData,
+    setTestimonialPage,
+    testimonialPage,
+  } = useFetchData();
 
   useEffect(() => {
     fetchTestimonials();
-  }, []);
+    fetchAllTestimonials();
+  }, [testimonialPage]);
 
   return (
     <div>
@@ -30,58 +40,65 @@ function Testimonials() {
       </div>
       <div className="bg-testimonials flex flex-col justify-center items-center">
         <div className="sm:w-1/2 flex justify-center items-center flex-col pt-4">
-        <div className="flex flex-row text-4xl pt-4 justify-end">
-          <div className="flex flex-row">
-            <span className="Actonia text-[#FFFFFF] mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] mr-1">
-              our
-            </span>
-          </div>
-          <span className="text-[#1C1C1C] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">Happy Couples</span>
-        </div>
-        <div className="flex flex-row text-4xl pb-4 justify-end">
-          <div className="flex flex-row">
-            <span className="Actonia text-[#1C1C1C] mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] mr-1">
-              and
-            </span>
-          </div>
-          <span className="text-[#FFFFFF] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">THEIR THOUGHTS</span>
-        </div>
-          {testimonialsData?.map((item, index) => (
-            <div>
-              <TestimonialTile
-                name={`${item?.firstPersonName} + ${item?.secondPersonName}`}
-                content={item?.description}
-                title={item?.title}
-                img={item?.image}
-              />
+          <div className="flex flex-row text-4xl pt-4 justify-end">
+            <div className="flex flex-row">
+              <span className="Actonia text-[#FFFFFF] mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] mr-1">
+                our
+              </span>
             </div>
-          ))}
+            <span className="text-[#1C1C1C] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">
+              Happy Couples
+            </span>
+          </div>
+          <div className="flex flex-row text-4xl pb-4 justify-end">
+            <div className="flex flex-row">
+              <span className="Actonia text-[#1C1C1C] mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] mr-1">
+                and
+              </span>
+            </div>
+            {testimonialsData?.map((item, index) => (
+              <div>
+                <TestimonialTile
+                  name={`${item?.firstPersonName} + ${item?.secondPersonName}`}
+                  content={item?.description}
+                  title={item?.title}
+                  img={item?.image}
+                />
+              </div>
+            ))}
+          </div>
+          <Stack spacing={2} className="pt-6 pb-12">
+            <Pagination
+              count={Math.ceil(
+                testimonialsAllData.length / TESTIMONIAL_PER_PAGE
+              )}
+              page={testimonialPage}
+              onChange={(event, value) => setTestimonialPage(value)}
+              renderItem={(item) => (
+                <PaginationItem
+                  classes={{
+                    page: styles["MuiPaginationItem-page"],
+                    iconButton: styles["MuiPaginationItem-iconButton"],
+                    ellipsis: styles["MuiPaginationItem-ellipsis"],
+                  }}
+                  slots={{
+                    previous: ArrowCircleLeftOutlinedIcon,
+                    next: ArrowCircleRightOutlinedIcon,
+                  }}
+                  // eslint-disable-next-line react/jsx-props-no-spreading
+                  {...item}
+                />
+              )}
+            />
+          </Stack>
         </div>
-        <Stack spacing={2} className="pt-6 pb-12" >
-          <Pagination
-
-            count={10}
-            renderItem={(item) => (
-              <PaginationItem
-                classes={{
-                  page: styles['MuiPaginationItem-page'],
-                  iconButton: styles['MuiPaginationItem-iconButton'],
-                  ellipsis: styles['MuiPaginationItem-ellipsis'],
-                }}
-                slots={{ previous: ArrowCircleLeftOutlinedIcon, next: ArrowCircleRightOutlinedIcon }}
-                // eslint-disable-next-line react/jsx-props-no-spreading
-                {...item}
-              />
-            )}
+        <div className=" h-[100%] flex justify-center items-center  ">
+          <img
+            src="https://cdn.sanity.io/images/u8qx4arf/production/719b9927c0c61f58c77df7c4c9ddaca3af3a715d-2560x920.png"
+            className="w-100% h-100% pb-0"
+            alt="Quote"
           />
-        </Stack>
-      </div>
-      <div className=" h-[100%] flex justify-center items-center  ">
-        <img
-          src="https://cdn.sanity.io/images/u8qx4arf/production/719b9927c0c61f58c77df7c4c9ddaca3af3a715d-2560x920.png"
-          className="w-100% h-100% pb-0"
-          alt="Quote"
-        />
+        </div>
       </div>
     </div>
   );

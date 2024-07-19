@@ -7,21 +7,26 @@ import Stack from "@mui/material/Stack";
 import ArrowCircleLeftOutlinedIcon from "@mui/icons-material/ArrowCircleLeftOutlined";
 import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
 import Header from "../components/Header";
-import useFetchData from "../customHooks/useFetchData";
+import useFetchData, {
+  VIDEO_STORY_ITEMS_PER_PAGE,
+} from "../customHooks/useFetchData";
 import PhotoStoryTile from "../components/PhotoStoryTile";
 
-import styles from "../sass/video_stories/_video-stories.module.scss"
+import styles from "../sass/video_stories/_video-stories.module.scss";
 
 function VideoStories() {
-  const { videoStoriesData, 
-         fetchVideoStories,
-         videoStoryPage,
-         setVideoStoryPage ,
-         } = useFetchData();
-
+  const {
+    videoStoriesData,
+    fetchVideoStories,
+    videoStoryPage,
+    setVideoStoryPage,
+    fetchAllVideoStories,
+    videoStoriesAllData,
+  } = useFetchData();
 
   useEffect(() => {
     fetchVideoStories();
+    fetchAllVideoStories();
   }, [videoStoryPage]);
 
   return (
@@ -37,9 +42,12 @@ function VideoStories() {
       </div>
       <div className="bg-[#1C1C1C] flex justify-center items-center text-white">
         <div className="flex flex-col items-center sm:w-[70%]">
-          <div className="text-[40px] sm:text-[48px] 2xl:text-[70px] uppercase font-extrabold Boldy tracking-normal text-center mt-10 p-3 text-white" style={{
-            lineHeight: "1.1"
-          }}>
+          <div
+            className="text-[40px] sm:text-[48px] 2xl:text-[70px] uppercase font-extrabold Boldy tracking-normal text-center mt-10 p-3 text-white"
+            style={{
+              lineHeight: "1.1",
+            }}
+          >
             NAMES ON A PAPER WE ARE NOT
           </div>
           <div className="flex flex-col justify-around sm:flex-row py-10 pt-4 max-w-[100%] lg:w-[80vw] leading-normal">
@@ -80,27 +88,39 @@ function VideoStories() {
           </div>
           <Stack spacing={2} className="sm:pt-6 pb-12">
             <Pagination
-              count={Math.ceil(videoStoriesData.length / 6)}
+              count={Math.ceil(
+                videoStoriesAllData.length / VIDEO_STORY_ITEMS_PER_PAGE
+              )}
               page={videoStoryPage}
               onChange={(event, value) => setVideoStoryPage(value)}
               renderItem={(item) => (
                 <PaginationItem
                   classes={{
-                    page: styles['MuiPaginationItem-page'],
-                    iconButton: styles['MuiPaginationItem-iconButton'],
-                    ellipsis: styles['MuiPaginationItem-ellipsis'],
-                    selected: styles['MuiPaginationItem-selected'],
+                    page: styles["MuiPaginationItem-page"],
+                    iconButton: styles["MuiPaginationItem-iconButton"],
+                    ellipsis: styles["MuiPaginationItem-ellipsis"],
+                    selected: styles["MuiPaginationItem-selected"],
                   }}
                   component="button"
                   onClick={() => setVideoStoryPage(item.page)}
                   slots={{
-                    previous: () => <ArrowCircleLeftOutlinedIcon sx={{
-                      color: "rgb(255 202 0)"
-                    }} />, next: () => <ArrowCircleRightOutlinedIcon
-                      sx={{
-                        color: "rgb(255 202 0)"
-                      }} />
-                  }} {...item} />
+                    previous: () => (
+                      <ArrowCircleLeftOutlinedIcon
+                        sx={{
+                          color: "rgb(255 202 0)",
+                        }}
+                      />
+                    ),
+                    next: () => (
+                      <ArrowCircleRightOutlinedIcon
+                        sx={{
+                          color: "rgb(255 202 0)",
+                        }}
+                      />
+                    ),
+                  }}
+                  {...item}
+                />
               )}
             />
           </Stack>
