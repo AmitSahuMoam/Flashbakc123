@@ -82,10 +82,10 @@ function NavBarSticky(props) {
           <ul className="nav__links text-white Courier Prime ml-auto mr-auto space-x-4 normal-case">
             <li className="nav__link">
               <Dropdown
-                className="Courier Prime"
-                label={<span style={{fontSize: '16px'}}>Stories</span>}
-                color="transparent"
-                theme={{ floating: {target: "w-full"} }}
+           className="Courier Prime text-[16px] 2xl:text-[20px]"
+           label={<span>Stories</span>}
+           color="transparent"
+           theme={{ floating: { target: "w-full" } }}
               >
                 <Dropdown.Item as={NavLink} to="/photostories" className="Courier Prime block w-full px-4 py-2 text-left 2xl:text-[20px] text-[16px] normal-case">
                   Photos
