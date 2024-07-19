@@ -46,15 +46,15 @@ function Blogs() {
               </div>
             </div>
             <div className="flex-1 m-5">
-              <p className=" Courier text-[#D8CAB1] text-[16px] 2xl:text-[18px] leading-normal">
-                <p className=" text-white text-[16px] 2xl:text-[18px]">Rahul DSouza and Fabian Franco,</p>{" "}
+              <p className=" Courier text-[#D8CAB1] text-[16px] 2xl:text-[20px] leading-normal">
+                <p className=" text-white text-[16px] 2xl:text-[20px]">Rahul DSouza and Fabian Franco,</p>{" "}
                 both seasoned photographers with a shared passion for capturing
                 love stories, eagerly anticipate sharing their diverse
                 experiences in photographing weddings of all kinds.
               </p>
             </div>
             <div className="flex-1 m-5">
-              <p className=" Courier text-[#D8CAB1]  2xl:text-[18px] leading-normal">
+              <p className=" Courier text-[#D8CAB1]  2xl:text-[20px] leading-normal">
                 From the tears of joy exchanged in intimate backyard ceremonies
                 to the exhilarating dance floors of grand destination
                 extravaganzas, theyve experienced the full gamut of wedding

@@ -51,7 +51,7 @@ function VideoStories() {
             NAMES ON A PAPER WE ARE NOT
           </div>
           <div className="flex flex-col justify-around sm:flex-row py-10 pt-4 max-w-[100%] lg:w-[80vw] leading-normal">
-            <div className="flex-1 text-[16px] 2xl:text-[18px] Courier mr-6 sm:ml-0 ml-6">
+            <div className="flex-1 text-[16px] 2xl:text-[20px] Courier mr-6 sm:ml-0 ml-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Interdum velit euismod in pellentesque massa placerat duis
@@ -60,7 +60,7 @@ function VideoStories() {
               sit amet consectetur adipiscing elit pellentesque.
             </div>
             <br />
-            <div className="flex-1 text-[16px] 2xl:text-[18px] Courier ml-6 mr-6 sm:mr-0">
+            <div className="flex-1 text-[16px] 2xl:text-[20px] Courier ml-6 mr-6 sm:mr-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Interdum velit euismod in pellentesque massa placerat duis

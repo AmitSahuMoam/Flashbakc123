@@ -15,7 +15,7 @@ function Photos() {
                 <p>brand</p>
               </div>
             </p>
-            <div className="text-[16px] 2xl:text-[18px] flex-col flex gap-10 pt-5">
+            <div className="text-[16px] 2xl:text-[20px] flex-col flex gap-10 pt-5">
               <div className="Courier">
                 <h1>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,

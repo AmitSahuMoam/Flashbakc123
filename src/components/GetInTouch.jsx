@@ -49,7 +49,7 @@ function GetInTouch() {
             <br />
             to know about you
           </h1>
-          <p className="text-[#4A4A4A] Courier font-medium  text-[16px] 2xl:text-[18px] mb-10 px-5 leading-normal tracking-normal ">
+          <p className="text-[#4A4A4A] Courier font-medium  text-[16px] 2xl:text-[20px] mb-10 px-5 leading-normal tracking-normal ">
             Please fill in the form below and provide as many details as possible
             to help us create an accurate and fair quote for your special
             occasion.
@@ -66,9 +66,9 @@ function GetInTouch() {
           Get in touch with us
         </span>
         <br />
-        <span className="text-[16px] 2xl:text-[18px] Courier text-[#4A4A4A] ">required fields are marked*</span>
+        <span className="text-[16px] 2xl:text-[20px] Courier text-[#4A4A4A] ">required fields are marked*</span>
 
-        <div className="Courier text-[16px] 2xl:text-[18px] justify-start flex flex-col items-start mt-5 text-[#1C1C1C]">
+        <div className="Courier text-[16px] 2xl:text-[20px] justify-start flex flex-col items-start mt-5 text-[#1C1C1C]">
           <span>What services are you looking for?</span>
 
           <div className="w-full justify-between flex sm:flex-row flex-wrap text-[14px] text-[#4A4A4A]">
@@ -174,7 +174,7 @@ function GetInTouch() {
             />
 
             <button
-              className="border-[1px] border-black text-black p-3 rounded uppercase text-[16px] 2xl:text-[18px] sm:mb-20 mb-10 hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300"
+              className="border-[1px] border-black text-black p-3 rounded uppercase text-[16px] 2xl:text-[20px] sm:mb-20 mb-10 hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300"
               type="submit"
             >
               <img src="https://cdn.sanity.io/images/u8qx4arf/production/ba8d8f59622f4d3229f813b582c5f554356c3a75-85x17.svg" alt="Submit" />

@@ -24,28 +24,28 @@ function BigSlider() {
       </div>
       <div>
         <img
-          src="https://cdn.sanity.io/images/u8qx4arf/production/4c6106785b427548e6dc219c8e952e9d13725dc3-1200x800.jpg"
+          src="https://cdn.sanity.io/images/u8qx4arf/production/d491d571773969fe6f3a0c903a003ef6ddb22c72-5152x7728.jpg"
           alt="Slide 2"
           className="w-full h-[80vh] object-cover"
         />
       </div>
       <div>
         <img
-          src="https://cdn.sanity.io/images/u8qx4arf/production/1069f856313b8fa8e59753fbaba02a1f6bd2fed3-1200x800.jpg"
+          src="https://cdn.sanity.io/images/u8qx4arf/production/c05345c4c7bc9eb1af1582d12eb8d5260284b4ef-5152x7728.jpg"
           alt="Slide 3"
           className="w-full h-[80vh] object-cover"
         />
       </div>
       <div>
         <img
-          src="https://cdn.sanity.io/images/u8qx4arf/production/2eb4a01b5d415e5c4a711bb95d7936c5dd5f4f72-1200x800.jpg"
+          src="https://cdn.sanity.io/images/u8qx4arf/production/dfe050aa2ba77ac9ed7d67d43b62594668250ffa-7728x5152.jpg"
           alt="Slide 4"
           className="w-full h-[80vh] object-cover"
         />
       </div>
       <div>
         <img
-          src="https://cdn.sanity.io/images/u8qx4arf/production/77e4a9db42e3b2517544c78d94c9f8c1d055cbcc-1200x800.jpg"
+          src="https://cdn.sanity.io/images/u8qx4arf/production/c133c1a645fc31ccbd4ce71dc0a9a8885376fde3-7728x5152.jpg"
           alt="Slide 5"
           className="w-full h-[80vh] object-cover"
         />

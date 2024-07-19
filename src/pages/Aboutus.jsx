@@ -60,7 +60,7 @@ function Aboutus() {
             <p className="Actonia text-[#1C1C1C] text-[40px] sm:text-[36px] 2xl:text-[64px] mb-[-12px] leading-[35px] ml-1">our</p>
           <p className="uppercase text-[#1C1C1C] text-[40px] sm:text-[48px] 2xl:text-[70px] Boldy lg:leading-[45px] sm:leading-[35px] 2xl:leading-[75px] ">Flashbakc</p>
 
-            <p className="Courier Prime text-[#4A4A4A] text-[16px] 2xl:text-[18px] leading-normal">
+            <p className="Courier Prime text-[#4A4A4A] text-[16px] 2xl:text-[20px] leading-normal">
               <br />
               Hi! Welcome to Flashbakc Studios. Narrow roads, winding lanes,
               coconut grooves, fields on both sides, and you will find us
@@ -76,7 +76,7 @@ function Aboutus() {
             </p>
           </div>
           <div>
-            <p className="Courier Prime  text-[#4A4A4A] m-5 mt-7 text-[16px] 2xl:text-[18px]">
+            <p className="Courier Prime  text-[#4A4A4A] m-5 mt-7 text-[16px] 2xl:text-[20px]">
               Rahul, working as a concept artist in a gaming studio and Fabian,
               pursuing his masters in Social work, kicked off a new journey of
               friendship.
@@ -100,7 +100,7 @@ function Aboutus() {
       <img alt="Image description" src=" https://cdn.sanity.io/images/u8qx4arf/production/8b5bf7c63efff172c54d7adf864c31bd5c4a9972-2560x565.svg" className="bg-[#D8CAB1]" />
 
       <div
-        className="bg-texture pt-[50px] pb-[50px] bg-fixed flex flex-col justify-start sm:justify-center items-center min-h-screen"
+        className="bg-texture pt-[50px] pb-[50px]  flex flex-col justify-start sm:justify-center items-center min-h-screen"
         id="questions"
       >
         <div className="flex flex-col justify-center items-center ml-[-5rem] sm:ml-0">
@@ -163,7 +163,7 @@ function Aboutus() {
           />
         </Stack>
         <span
-          className='ml-2 mt-10 px-4 Courier Prime text-[16px] 2xl:text-[18px] font-medium normal-case leading-normal text-[#FFFFFF]'
+          className='ml-2 mt-10 px-4 Courier Prime text-[16px] 2xl:text-[20px] font-medium normal-case leading-normal text-[#FFFFFF]'
         >
           Didn&apos;t find an answer to your question here? <br />
           Ask us directly through our {" "}

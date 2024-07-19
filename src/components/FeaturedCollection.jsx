@@ -22,12 +22,12 @@ function FeaturedCollection() {
               <p className="text-[#FFCA00] ml-2"> brand</p>
             </div>
             <div className="text-lg flex-col flex mt-5 sm:pl-10 pl-0 leading-normal">
-              <div className="Courier Prime text-[16px] 2xl:text-[18px]">
+              <div className="Courier Prime text-[16px] 2xl:text-[20px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Justo laoreet sit amet cursus.
               </div>
-              <div className="Courier Prime text-[16px] 2xl:text-[18px] mt-5">
+              <div className="Courier Prime text-[16px] 2xl:text-[20px] mt-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Justo laoreet sit amet cursus.

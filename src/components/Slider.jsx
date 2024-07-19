@@ -13,17 +13,17 @@ function Slider() {
   }, []);
 
   return (
-    <div className="sm:pt-[50px] pt 2xl:pt-[125px] bg-[#EDECE7] p-5 justify-self-end  w-full 2xl:h-[954px]  overflow-hidden ">
+    <div className="sm:pt-[100px] pt 2xl:pt-[125px] bg-[#EDECE7] p-5 justify-self-end  w-full 2xl:h-[954px]  overflow-hidden ">
       <div className="flex flex-col sm:flex-row  items-start sm:items-center justify-center ">
       <div className="flex flex-row text-4xl justify-end mr-3 ">
           <div className="flex flex-row">
-            <span className="Actonia text-[#1C1C1C] mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] mr-5">
+            <span className="Actonia text-[#1C1C1C] mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] ">
               our
             </span>
           </div>
-          <span className="text-[#1C1C1C] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">Stories</span>
+          <span className="text-[#1C1C1C] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4 mr-10 ">Stories</span>
         </div>
-        <div className="Courier Prime text-[16px] 2xl:text-[18px] sm:text-[16px] font-[#4A4A4A] max-w-4xl ">
+        <div className="Courier Prime text-[16px] 2xl:text-[20px] sm:text-[16px] font-[#4A4A4A] max-w-4xl mr-10">
           are different and every couple is unique. Your moments become your
           life story and live from one generation to the next. Here are your
           stories through our particular way of seeing it
@@ -42,7 +42,7 @@ function Slider() {
           </div>
           <span className="text-[#ffca00] Boldy text-[40px] sm:text-[48px] 2xl:text-[70px] mt-4">Photos</span>
         </div>
-        <div className="text-[16px] sm:text-[16px] 2xl:text-[18px] px-3 border-yellow-400 Boldy cursor-pointer ml-6 rounded-lg uppercase text-black text-right mt-4">
+        <div className="text-[16px] sm:text-[16px] 2xl:text-[20px] px-3 border-yellow-400 Boldy cursor-pointer ml-6 rounded-lg uppercase text-black text-right mt-4">
           <NavLink to="/photostories#head">
             <button
               type="button"

@@ -31,7 +31,7 @@ function Thoughts() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo laoreet sit amet cursus. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. <br /> <br />{" "}
                 Venenatis lectus magna fringilla urna porttitor. Risus quis varius quam quisque id diam vel quam elementum. Facilisi cras ferment
               </p>
-              <div className=" w-full text-[16px] 2xl:text-[18px] sm:text-[16px] border cursor-pointer rounded-lg Boldy uppercase text-black ">
+              <div className=" w-full text-[16px] 2xl:text-[20px] sm:text-[16px] border cursor-pointer rounded-lg Boldy uppercase text-black ">
                 <div className=" border w-fit h-min p-3 rounded-lg mt-2">
                   <NavLink to="/testimonials#head3" className="">
                     <button
