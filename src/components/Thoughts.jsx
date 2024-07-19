@@ -17,7 +17,7 @@ function Thoughts() {
                   {" "}
                   and{" "}
                 </p>{" "}
-                <span className="text-nowrap Boldy text-white text-[30px] sm:text-[48px] 2xl:text-[70px] ml-1 leading-4">
+                <span className="text-nowrap Boldy text-white text-[30px] sm:text-[48px] 2xl:text-[70px] ml-1 leading-7 sm:leading-3 2xl:leading-9">
                   THEIR THOUGHTS{" "}
                 </span>
               </div>
