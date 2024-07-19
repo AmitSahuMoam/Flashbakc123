@@ -24,6 +24,35 @@ const useFetchData = () => {
   const [videoStoryPage, setVideoStoryPage] = useState(1);
   const [testimonialPage, setTestimonialPage] = useState(1);
   const [photoStoryNextPrevious, setPhotoStoryNextPrevious] = useState(null);
+  const [videoStoryNextPrevious, setVideoStoryNextPrevious] = useState(null);
+
+  const fetchVideoStoryNextPrevious = async (id) => {
+    id = parseInt(id);
+    const nextId = id + 1;
+    const previousId = id - 1;
+    try {
+      const { data: nextData, error: nextError } = await supabase
+        .from("VideoStories")
+        .select("firstPersonName, secondPersonName")
+        .eq("id", nextId);
+
+      const { data: previousData, error: previousError } = await supabase
+        .from("VideoStories")
+        .select("firstPersonName, secondPersonName")
+        .eq("id", previousId);
+
+      if (nextError || previousError) {
+        throw new Error("Error while fetching Photo Story Single Data");
+      }
+      console.log(nextData, previousData);
+      setVideoStoryNextPrevious([
+        previousData[0] ? previousData[0] : null,
+        nextData[0] ? nextData[0] : null,
+      ]);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
 
   const fetchPhotoStoryNextPrevious = async (id) => {
     id = parseInt(id);
@@ -93,7 +122,7 @@ const useFetchData = () => {
   async function fetchPhotoStorySingleData(id) {
     try {
       const { data, error } = await supabase
-        .from("PhotostoriesSingle")
+        .from("PhotoStories")
         .select("*")
         .eq("id", id);
 
@@ -109,7 +138,7 @@ const useFetchData = () => {
   async function fetchVideoStorySingleData(id) {
     try {
       const { data, error } = await supabase
-        .from("VideostoriesSingle")
+        .from("VideoStories")
         .select("*")
         .eq("id", id);
 
@@ -298,6 +327,8 @@ const useFetchData = () => {
     fetchPhotoStorySingleData,
     photoStoryNextPrevious,
     fetchPhotoStoryNextPrevious,
+    videoStoryNextPrevious,
+    fetchVideoStoryNextPrevious,
     blogsData,
     fetchBlogs,
     fetchQuestionsAnswers,
