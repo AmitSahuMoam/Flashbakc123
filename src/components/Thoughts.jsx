@@ -5,7 +5,7 @@ function Thoughts() {
   return (
     <div className="">
       <div className="bg-dustTexture lg:pt-20 pt-10 lg:pb-20 flex sm:flex-row justify-center items-center">
-        <div className="sm:text-5xl 2xl:text[70px] text-3xl text-black Boldy flex-col flex sm:flex-row justify-center items-center lg:w-[70vw]">
+        <div className="sm:text-5xl 2xl:text[70px] text-3xl text-[#1c1c1c] Boldy flex-col flex sm:flex-row justify-center items-center lg:w-[70vw]">
           <div className="flex-1 flex flex-col flex-nowrap z-30 items-center">
             <div className="w-full flex flex-col justify-center items-start sm:items-center">
               <div className="flex flex-row justify-self-start">
@@ -22,8 +22,8 @@ function Thoughts() {
                 </span>
               </div>
             </div>
-            <div className="Courier Prime text-[16px]  sm:text-[16px] 2xl:text-[18px] pb-15 lg:w-[80%] px-5 w-full lg:pt-10 pt-5 leading-normal">
-              <span className=" text-black lg:w-[50%]">
+            <div className="Courier Prime text-[16px]  sm:text-[16px] 2xl:text-[20px] pb-15 lg:w-[80%] px-5 w-full lg:pt-10 pt-5 leading-normal">
+              <span className=" text-[#1c1c1c] lg:w-[50%]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing
               </span>
               <p className="w-full text-[#4A4A4A]">
