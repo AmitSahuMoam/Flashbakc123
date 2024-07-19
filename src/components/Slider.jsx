@@ -21,7 +21,7 @@ function Slider() {
                 our
               </span>
             </div>
-            <span className="text-[#1C1C1C] Boldy text-[30px] sm:text-[48px] 2xl:text-[70px] mt-4">Stories</span>
+            <span className="text-[#1C1C1C] Boldy text-[30px] sm:text-[48px] 2xl:text-[70px] mt-4 pl-2">Stories</span>
           </div>
           <div className="Courier Prime text-[16px] 2xl:text-[20px] sm:text-[16px] font-[#4A4A4A] max-w-4xl ">
             are different and every couple is unique. Your moments become your
