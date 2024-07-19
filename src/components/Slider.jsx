@@ -17,7 +17,7 @@ function Slider() {
       <div className="flex flex-col sm:flex-row  items-start sm:items-center justify-center ">
       <div className="flex flex-row text-4xl justify-end mr-3 ">
           <div className="flex flex-row">
-            <span className="Actonia text-[#1C1C1C] mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] mr-1">
+            <span className="Actonia text-[#1C1C1C] mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] mr-5">
               our
             </span>
           </div>
