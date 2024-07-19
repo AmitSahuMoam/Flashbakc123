@@ -44,12 +44,12 @@ function PhotoStories() {
           <div className="sm:text-5xl 2xl:text-[70px] text-4xl uppercase Boldy text-black text-center py-6 2xl:py-[50px]">
             <div className="2xl:leading-[50px]  " >
               {" "}
-              Love &nbsp;
+              Love {" "}
               <span className="Actonia lowercase 2xl:leading-[50px] sm:leading-[65px] leading-[30px]  2xl:text-[64px]">
                 is the
-              </span>{" "}
+              </span>
             <span className = "2xl:leading-[50px] sm:leading-[20px] leading-[30px] ">    whole thing.</span>
-            </div>{" "}
+            </div>
             <div className="2xl:leading-[50px] sm:leading-[20px] leading-[30px] pb-4 "> we are only pieces.</div>
           </div>
           <div className=" Courier flex flex-col justify-around mb-10 sm:flex-row w-[100%] lg:w-[70%] ">
