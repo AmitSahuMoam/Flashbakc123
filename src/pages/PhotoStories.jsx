@@ -41,7 +41,7 @@ function PhotoStories() {
       </div>
       <div className="bg-[#EDECE7] flex justify-center items-center">
         <div className="flex flex-col items-center w-[90%]">
-          <div className="sm:text-5xl 2xl:text-[70px] text-4xl uppercase Boldy text-black text-center py-6">
+          <div className="sm:text-5xl 2xl:text-[70px] text-4xl uppercase Boldy text-black text-center py-6 2xl:px-[70px]">
             <div >
               {" "}
               Love &nbsp;
