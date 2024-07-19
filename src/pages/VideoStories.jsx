@@ -43,9 +43,9 @@ function VideoStories() {
       <div className="bg-[#1C1C1C] flex justify-center items-center text-white">
         <div className="flex flex-col items-center sm:w-[70%]">
           <div
-            className="text-[40px] sm:text-[48px] 2xl:text-[70px] uppercase font-extrabold Boldy leading-[70px] tracking-normal text-center mt-10 p-3 text-white"
+            className="text-[40px] sm:text-[48px] 2xl:text-[70px] uppercase font-extrabold Boldy sm:leading-[5px] 2xl:leading-[70px] tracking-normal text-center mt-10 p-3 text-white"
             style={{
-              lineHeight: "2",
+              lineHeight: "1.1",
             }}
           >
             NAMES ON A PAPER WE ARE NOT

@@ -104,7 +104,7 @@ function Aboutus() {
         id="questions"
       >
         <div className="flex flex-col justify-center items-center ml-[-5rem] sm:ml-0">
-          <div className=" text-white uppercase lg:text-5xl 2xl:text[70px] text-3xl tracking-tighter Boldy  flex flex-col justify-start w-full text-left">
+          <div className=" text-white uppercase lg:text-5xl 2xl:text[70px] text-3xl tracking-tighter Boldy  flex flex-col justify-start w-full text-left ">
             <span className="Boldy text-[40px] sm:text-[48px] 2xl:text-[70px]  text-[#FFCA00] uppercase text">
               questions
             </span>
