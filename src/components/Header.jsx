@@ -13,7 +13,7 @@ function Header() {
   };
 
   return (
-    <header className="header bg-black" id="top">
+    <header className="header bg-[#1c1c1c]" id="top">
       <NavBarSticky toggleSearchView={toggleSearchView} />
     </header>
   );

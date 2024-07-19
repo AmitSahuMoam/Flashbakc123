@@ -44,7 +44,7 @@ function GetInTouch() {
       <form className="sm:w-1/2 w-full px-10 sm:p-0" onSubmit={handleSubmit}>
         <span className="Actonia text-[36px] sm:text-[36px] 2xl:text-[64px] text-[#FFCA00] leading-[5px]">Hello!</span>
         <div className="w-full sm:w-3/4 mx-auto">
-          <h1 className="sm:text-5xl 2xl:text[70px] text-4xl mb-2 uppercase Boldy text-black">
+          <h1 className="sm:text-5xl 2xl:text[70px] text-4xl mb-2 uppercase Boldy text-[#1c1c1c]">
             tell us all we need
             <br />
             to know about you
@@ -77,7 +77,7 @@ function GetInTouch() {
                 type="radio"
                 name="mediaOption"
                 value="Photos"
-                className="Courier rounded-full accent-black"                onChange={handleChange}
+                className="Courier rounded-full accent-[#1c1c1c]"                onChange={handleChange}
               /> Photos
             </div>
 
@@ -86,7 +86,7 @@ function GetInTouch() {
                 type="radio"
                 name="mediaOption"
                 value="Photos & Videos"
-                className="Courier rounded-full accent-black"                onChange={handleChange}
+                className="Courier rounded-full accent-[#1c1c1c]"                onChange={handleChange}
               /> Photos & Videos
             </div>
 
@@ -95,7 +95,7 @@ function GetInTouch() {
                 type="radio"
                 name="mediaOption"
                 value="Couples Session"
-                className="Courier rounded-full accent-black"
+                className="Courier rounded-full accent-[#1c1c1c]"
                 onChange={handleChange}
               /> Couples Session
             </div>
@@ -105,7 +105,7 @@ function GetInTouch() {
                 type="radio"
                 name="mediaOption"
                 value="Question"
-               className="Courier rounded-full accent-black"
+               className="Courier rounded-full accent-[#1c1c1c]"
                 onChange={handleChange}
               /> Question
             </div>
@@ -174,7 +174,7 @@ function GetInTouch() {
             />
 
             <button
-              className="border-[1px] border-black text-black p-3 rounded uppercase text-[16px] 2xl:text-[20px] sm:mb-20 mb-10 hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300"
+              className="border-[1px] border-[#1c1c1c] text-[#1c1c1c] p-3 rounded uppercase text-[16px] 2xl:text-[20px] sm:mb-20 mb-10 hover:text-[#1c1c1c] hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300"
               type="submit"
             >
               <img src="https://cdn.sanity.io/images/u8qx4arf/production/ba8d8f59622f4d3229f813b582c5f554356c3a75-85x17.svg" alt="Submit" />

@@ -1,6 +1,6 @@
 function Photos() {
   return (
-    <div className="bg-black bg-fixed">
+    <div className="bg-[#1c1c1c] bg-fixed">
       <div className="h-[70vh]  grid grid-cols-2 gap-1  text-white lg:text-5xl 2xl:text[70px] text-3xl Boldy pt-[13vh] pb-20 pl-20">
         <div className=" h-[60vh] flex flex-row-reverse flex-nowrap">
           <img src="src/assets/images/photosheader.svg" alt="hello" />

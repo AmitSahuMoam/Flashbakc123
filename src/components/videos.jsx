@@ -30,10 +30,10 @@ function Videos() {
         className="text-[#D8CAB1]"
       />
       <div className="text-[16px] 2xl:text-[20px] sm:text-[16px] border-yellow-400 Boldy cursor-pointer pb-10 ml-3 rounded-lg uppercase text-white w-full justify-end flex">
-        <NavLink to="/videostories#head1" className="mr-[20%]">
+        <NavLink to="/videostories#head1" className="mr-[20%] leading-[25px]">
           <button
             type="button"
-            className="border-yellow-300 px-1 py-1 border text-[20px] 2xl:h-[34px] 2xl:w-[192px] rounded-md  hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300"
+            className="border-yellow-300 px-2 py-1 border text-[20px] 2xl:h-[34px] 2xl:w-[192px] rounded-md  hover:text-[#1c1c1c] hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300"
           >
             see more videos
           </button>
