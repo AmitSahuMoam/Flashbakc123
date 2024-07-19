@@ -46,7 +46,7 @@ function Slider() {
           <NavLink to="/photostories#head">
             <button
               type="button"
-              className="border-yellow-300  text-[20px] border h-[34px] w-[197px] px-2  rounded-md hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300 pt-1"
+              className="border-yellow-300  text-[20px] border h-[34px] w-[197px] px-2  rounded-md hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300 pt-[2px]"
             >
               see more stories        
             </button>
