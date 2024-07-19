@@ -23,7 +23,7 @@ function Slider() {
             </div>
             <span className="text-[#1C1C1C] Boldy text-[30px] sm:text-[48px] 2xl:text-[70px] mt-4">Stories</span>
           </div>
-          <div className="Courier Prime text-[16px] 2xl:text-[18px] sm:text-[16px] font-[#4A4A4A] max-w-4xl ">
+          <div className="Courier Prime text-[16px] 2xl:text-[20px] sm:text-[16px] font-[#4A4A4A] max-w-4xl ">
             are different and every couple is unique. Your moments become your
             life story and live from one generation to the next. Here are your
             stories through our particular way of seeing it
@@ -46,7 +46,7 @@ function Slider() {
           <NavLink to="/photostories#head">
             <button
               type="button"
-              className="border-yellow-300  text-[20px] border h-[34px] w-[197px] px-1  rounded-md hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300 py-1"
+              className="border-yellow-300  text-[20px] border h-[34px] w-[197px] px-1  rounded-md hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300 py-2"
             >
               see more stories        
             </button>
