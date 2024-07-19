@@ -17,7 +17,7 @@ function Videos() {
   }, []);
 
   return (
-    <div className="pt-10  bg-fixed h-full bg-cover ">
+    <div className="pt-10 bg-[#1c1c1c] bg-fixed h-full bg-cover ">
       <div className="flex w-full ">
         <div className="flex flex-row ml-[20%] ">
           <span className="Actonia text-white mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] mt-2 ">through</span>
