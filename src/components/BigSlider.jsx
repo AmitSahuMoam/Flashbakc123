@@ -6,14 +6,14 @@ import '../sass/home_page/_hero.scss'
 function BigSlider() {
   return (
     <Carousel
-      swipeable
-      useKeyboardArrows
-      showThumbs={false}
+    showThumbs={false}
       showArrows={false}
       showStatus={false}
       autoPlay
       infiniteLoop
-      stopPropagation={true}
+      swipeable={false}
+      draggable={false}
+      emulateTouch={false}
     >
       <div>
         <img
