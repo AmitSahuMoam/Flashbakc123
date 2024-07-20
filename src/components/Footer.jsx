@@ -55,17 +55,18 @@ function Footer() {
             </div>
           </div>
           <div className=" flex flex-col  text-[40px]  text-3xl Boldy text-white text-center mb-20 sm:mb-0 ">
-            <div className="flex flex-row text-[40px]  text-3xl Boldy text-white text-center pl-10 pt-[50px]">
-              Lets Get
-              <Link
+          <Link
                 to="/aboutus#contact"
               >
+            <div className="flex flex-row text-[40px]  text-3xl Boldy text-white text-center pl-10 pt-[50px]">
+              Lets Get
+            
                 <img
                   src="https://cdn.sanity.io/images/u8qx4arf/production/4b7a41122dadf6389912a00d9927152055eb626a-28x28.svg"
                   alt="hello"
                   className="w-[28px] h-[18px] cursor-pointer"
                 />{" "}
-              </Link>
+             
             </div>
 
             <div className="text-yellow-300 pl-5 mt-3" key={CurrentStuff}>
@@ -82,7 +83,9 @@ function Footer() {
                 {stuff[CurrentStuff]}
               </MovingComponent>
             </div>
+            </Link>
           </div>
+          
           <div className="flex flex-1 flex-row items-center justify-center">
             <div className="Courier flex-1 flex flex-col sm:justify-end justify-center items-end sm:pt-[100px] ">
               <span className="Boldy sm:text-2xl text-lg sm:self-end self-center  text-[#D8CAB1] ">
