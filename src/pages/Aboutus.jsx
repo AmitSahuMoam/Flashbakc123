@@ -8,7 +8,7 @@ import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutl
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 import GetInTouch from "../components/GetInTouch";
 import QuestionAnswers from "../components/QuestionAnswers";
-
+import { useScrollRestoration } from 'react';
 import useFetchData from "../customHooks/useFetchData";
 
 import useScrollTo from '../customHooks/useScrollTo';
@@ -21,7 +21,7 @@ function Aboutus() {
   useScrollTo();
 
   const { questionsData, fetchQuestionsAnswers, questionPage, setQuestionPage } = useFetchData();
-
+  const scrollRestoration = useScrollRestoration();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

@@ -59,7 +59,7 @@ function Testimonials() {
         <Stack spacing={2} className="pt-6 pb-12" >
           <Pagination
 
-            count={10}
+            count={1}
             renderItem={(item) => (
               <PaginationItem
                 classes={{
