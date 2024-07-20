@@ -34,7 +34,7 @@ function Slider() {
       </div>
       <div className="flex sm:flex-row justify-end flex-col mr-[15%]">
         <div className="flex flex-row text-4xl pt-4 justify-end">
-          <div className="flex flex-row">
+          <div className="flex flex-row sm:pb-5">
             <img src={uparrow} alt="" className="w-[2vh] mb-3 mr-1" />{" "}
             <span className="Actonia text-black mb-auto text-[40px] sm:text-[36px] 2xl:text-[64px] mr-1">
               through
