@@ -164,7 +164,7 @@ function NavBarSticky(props) {
                       </div>
                     </Link>
                   )}
-                  <div className="md:hidden ml-2 pb-10 ">
+                  <div className="lg:hidden ml-2 pb-10 ">
                     <IconButton
                       variant="outlined"
                       color="neutral"
