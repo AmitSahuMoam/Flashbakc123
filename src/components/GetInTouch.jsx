@@ -77,7 +77,8 @@ function GetInTouch() {
                 type="radio"
                 name="mediaOption"
                 value="Photos"
-                className="Courier rounded-full accent-[#1c1c1c]"                onChange={handleChange}
+                className="Courier rounded-full accent-[#1c1c1c]"           
+                onChange={handleChange}
               /> Photos
             </div>
 
@@ -86,7 +87,8 @@ function GetInTouch() {
                 type="radio"
                 name="mediaOption"
                 value="Photos & Videos"
-                className="Courier rounded-full accent-[#1c1c1c]"                onChange={handleChange}
+                className="Courier rounded-full accent-[#1c1c1c]"              
+                 onChange={handleChange}
               /> Photos & Videos
             </div>
 
@@ -111,7 +113,7 @@ function GetInTouch() {
             </div>
           </div>
 
-          <div className="w-full mt-5 text-[#A18E6A]">
+          <div className="w-full mt-5 text-[#1c1c1c]">
             <input
               type="text"
               name="name"
@@ -147,7 +149,7 @@ function GetInTouch() {
             <textarea
               name="details"
               placeholder="Describe the details of the wedding- event schedule, venues.*"
-              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded h-[200px]"
+              className="Courier w-full bg-[#EDECE7]  border-none p-5 rounded h-[200px]  text-[##1c1c1c]"
               onChange={handleChange}
             />
 

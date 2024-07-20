@@ -58,11 +58,11 @@ function Photostoriessingle() {
             </div>
           </div>
           {photoStorySingleData ? (
-            <div className="w-full">
+            <div className="w-[80%] h-auto flex justify-center items-center">
               <img
                 src={photoStorySingleData?.mainImage}
                 alt="placeholder"
-                className="w-full h-auto"
+                className="w-[80%] h-auto flex justify-center items-center"
               />
             </div>
           ) : (
@@ -71,7 +71,7 @@ function Photostoriessingle() {
           <div className=" w-full mt-[60px]">
             <div className=" bg-[#4A4A4A] h-[1.5px] border-[#4A4A4A] w-full border " />
             <div className="flex justify-between my-[70px]">
-              <div className="w-[367px] text-[#1C1C1C] text-[18px] uppercase text-opacity-40">
+              <div className="w-[367px]  text-[18px] Courier Prime uppercase text-opacity-40">
                 wedding, destination, photography, blog, experimental
               </div>
               <div className="flex text-[#1C1C1C] gap-[10px]">
@@ -100,7 +100,7 @@ function Photostoriessingle() {
                 {photoStoryNextPrevious[0] != null ? (
                   <div className="flex items-end flex-row-reverse">
                     <div className="flex flex-col items-start">
-                      <p className="text-sm italic text-[#1C1C1C] font-extralight">
+                      <p className="text-[16px]  text-[#1C1C1C]  Courier Prime">
                         Previous
                       </p>
                       <a
@@ -119,7 +119,7 @@ function Photostoriessingle() {
                 {photoStoryNextPrevious[1] != null ? (
                   <div className="flex flex-row items-end">
                     <div className="flex flex-col items-end">
-                      <p className="text-sm italic text-[#1C1C1C] font-extralight">
+                      <p className=" text-[#1C1C1C] Courier Prime text-[16px]">
                         Next
                       </p>
                       <a
