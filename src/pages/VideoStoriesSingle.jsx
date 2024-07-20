@@ -5,6 +5,7 @@ import PaginationItem from "@mui/material/PaginationItem";
 import Stack from "@mui/material/Stack";
 import facebook_icon from "../assets/FacebookLogo.png";
 import insta_icon from "../assets/InstagramLogo.png";
+import ReactPlayer from "react-player";
 import ArrowCircleLeftOutlinedIcon from "@mui/icons-material/ArrowCircleLeftOutlined";
 import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
 import useFetchData from "../customHooks/useFetchData";
@@ -26,12 +27,12 @@ function VideoStoriesSingle() {
     <div className="bg-[#1C1C1C] text-white">
       <div className="flex justify-center pt-[80px]">
         {videoStorySingleData ? (
-          <iframe
+          <ReactPlayer
             // className="h-[500px]"
             width="80%"
             height="500px"
-            src={videoStorySingleData?.video}
-          ></iframe>
+            url={videoStorySingleData?.video}
+          ></ReactPlayer>
         ) : (
           <div>There is no single video</div>
         )}
