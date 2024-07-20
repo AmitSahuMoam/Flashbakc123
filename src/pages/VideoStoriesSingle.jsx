@@ -87,14 +87,15 @@ function VideoStoriesSingle() {
                 {videoStoryNextPrevious[0] != null ? (
                   <div className="flex items-end flex-row-reverse">
                     <div className="flex flex-col items-start">
-                      <p className="text-sm italic text-[#1C1C1C] font-extralight">
+                      <p className="text-sm italic  font-extralight">
                         Previous
                       </p>
                       <a
                         href={`/videostories/${parseInt(id) - 1}`}
-                        className="text-[32px] Boldy text-[#1C1C1C]"
+                        className="text-[32px] Boldy "
                       >
-                        {`${videoStoryNextPrevious[0].firstPersonName} + ${videoStoryNextPrevious[0].secondPersonName}`}
+                        {/* {`${videoStoryNextPrevious[0].firstPersonName} + ${videoStoryNextPrevious[0].secondPersonName}`} */}
+                        {videoStoryNextPrevious[0].title}
                       </a>
                     </div>
                     <ArrowCircleLeftOutlinedIcon className="mb-4 mr-2" />
@@ -110,7 +111,8 @@ function VideoStoriesSingle() {
                         href={`/videostories/${parseInt(id) + 1}`}
                         className="text-[32px] Boldy "
                       >
-                        {`${videoStoryNextPrevious[1].firstPersonName} + ${videoStoryNextPrevious[1].secondPersonName}`}
+                        {/* {`${videoStoryNextPrevious[1].firstPersonName} + ${videoStoryNextPrevious[1].secondPersonName}`} */}
+                        {videoStoryNextPrevious[1].title}
                       </a>
                     </div>
                     <ArrowCircleRightOutlinedIcon className="mb-4 ml-2" />
