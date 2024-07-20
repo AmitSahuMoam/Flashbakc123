@@ -32,13 +32,15 @@ const useFetchData = () => {
     const previousId = id - 1;
     try {
       const { data: nextData, error: nextError } = await supabase
-        .from("VideoStories")
-        .select("firstPersonName, secondPersonName")
+        .from("VideostoriesSingle")
+        // .select("firstPersonName, secondPersonName")
+        .select("title")
         .eq("id", nextId);
 
       const { data: previousData, error: previousError } = await supabase
-        .from("VideoStories")
-        .select("firstPersonName, secondPersonName")
+        .from("VideostoriesSingle")
+        // .select("firstPersonName, secondPersonName")
+        .select("title")
         .eq("id", previousId);
 
       if (nextError || previousError) {
@@ -60,13 +62,15 @@ const useFetchData = () => {
     const previousId = id - 1;
     try {
       const { data: nextData, error: nextError } = await supabase
-        .from("PhotoStories")
-        .select("firstPersonName, secondPersonName")
+        .from("PhotostoriesSingle")
+        // .select("firstPersonName, secondPersonName")
+        .select("title")
         .eq("id", nextId);
 
       const { data: previousData, error: previousError } = await supabase
-        .from("PhotoStories")
-        .select("firstPersonName, secondPersonName")
+        .from("PhotostoriesSingle")
+        // .select("firstPersonName, secondPersonName")
+        .select("title")
         .eq("id", previousId);
 
       if (nextError || previousError) {
@@ -122,7 +126,7 @@ const useFetchData = () => {
   async function fetchPhotoStorySingleData(id) {
     try {
       const { data, error } = await supabase
-        .from("PhotoStories")
+        .from("PhotostoriesSingle")
         .select("*")
         .eq("id", id);
 
@@ -138,7 +142,7 @@ const useFetchData = () => {
   async function fetchVideoStorySingleData(id) {
     try {
       const { data, error } = await supabase
-        .from("VideoStories")
+        .from("VideostoriesSingle")
         .select("*")
         .eq("id", id);
 

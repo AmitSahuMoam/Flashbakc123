@@ -15,7 +15,7 @@ import Menu from "@mui/icons-material/Menu";
 import CartContext from "../context/CartContext";
 import logo from "../assets/images/logo.svg";
 
-import '../sass/nav/_nav.scss'
+import "../sass/nav/_nav.scss";
 
 function NavBarSticky(props) {
   const [open, setOpen] = useState(false);
@@ -41,24 +41,27 @@ function NavBarSticky(props) {
       }, 200);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   useEffect(() => {
     const checkScroll = () => {
-      if (window.scrollY >= document.body.scrollHeight - window.innerHeight - 150) {
+      if (
+        window.scrollY >=
+        document.body.scrollHeight - window.innerHeight - 150
+      ) {
         setIsGetButtonVisible(false);
       } else {
         setIsGetButtonVisible(true);
       }
     };
 
-    window.addEventListener('scroll', checkScroll);
-    return () => window.removeEventListener('scroll', checkScroll);
+    window.addEventListener("scroll", checkScroll);
+    return () => window.removeEventListener("scroll", checkScroll);
   }, []);
 
   const stuff = [
@@ -82,40 +85,66 @@ function NavBarSticky(props) {
           <ul className="nav__links text-white Courier Prime ml-auto mr-auto space-x-4 normal-case">
             <li className="nav__link">
               <Dropdown
-           className="Courier Prime "
-           label={<span className="text-[16px] 2xl:text-[20px]">Stories</span>}
-           color="transparent"
-           theme={{ floating: { target: "w-full" } }}
+                className="Courier Prime "
+                label={
+                  <span className="text-[16px] 2xl:text-[20px]">Stories</span>
+                }
+                color="transparent"
+                theme={{ floating: { target: "w-full" } }}
               >
-                <Dropdown.Item as={NavLink} to="/photostories" className="Courier Prime block w-full px-4 py-2 text-left 2xl:text-[20px] text-[16px] normal-case">
+                <Dropdown.Item
+                  as={NavLink}
+                  to="/photostories"
+                  className="Courier Prime block w-full px-4 py-2 text-left 2xl:text-[20px] text-[16px] normal-case"
+                >
                   Photos
                 </Dropdown.Item>
-                <Dropdown.Item as={NavLink} to="/videostories" className="Courier Prime block w-full px-4 py-2 text-left 2xl:text-[20px] text-[16px] normal-case">
+                <Dropdown.Item
+                  as={NavLink}
+                  to="/videostories"
+                  className="Courier Prime block w-full px-4 py-2 text-left 2xl:text-[20px] text-[16px] normal-case"
+                >
                   Videos
                 </Dropdown.Item>
               </Dropdown>
             </li>
             <li>
-              <NavLink to="/aboutus" className="Courier Prime whitespace-nowrap text-[16px] 2xl:text-[20px]">
+              <NavLink
+                to="/aboutus"
+                className="Courier Prime whitespace-nowrap text-[16px] 2xl:text-[20px]"
+              >
                 About Us
               </NavLink>
             </li>
             <li>
-              <a href="/aboutus#questions" className="Courier Prime text-[16px] 2xl:text-[20px]">
+              <a
+                href="/aboutus#questions"
+                className="Courier Prime text-[16px] 2xl:text-[20px]"
+              >
                 FAQs
               </a>
             </li>
             <li className="nav__link">
               <Dropdown
-             className="Courier Prime "
-             label={<span className="text-[16px] 2xl:text-[20px]">More</span>}
-             color="transparent"
-             theme={{ floating: { target: "w-full" } }}
+                className="Courier Prime "
+                label={
+                  <span className="text-[16px] 2xl:text-[20px]">More</span>
+                }
+                color="transparent"
+                theme={{ floating: { target: "w-full" } }}
               >
-                <Dropdown.Item as={NavLink} to="/testimonials" className="Courier Prime block w-full px-4 py-2 text-left 2xl:text-[20px] text-[16px] normal-case">
+                <Dropdown.Item
+                  as={NavLink}
+                  to="/testimonials"
+                  className="Courier Prime block w-full px-4 py-2 text-left 2xl:text-[20px] text-[16px] normal-case"
+                >
                   Testimonials
                 </Dropdown.Item>
-                <Dropdown.Item as={NavLink} to="/blogs" className="Courier Prime block w-full px-4 py-2 text-left 2xl:text-[20px] text-[16px] normal-case">
+                <Dropdown.Item
+                  as={NavLink}
+                  to="/blogs"
+                  className="Courier Prime block w-full px-4 py-2 text-left 2xl:text-[20px] text-[16px] normal-case"
+                >
                   Blogs
                 </Dropdown.Item>
               </Dropdown>
@@ -125,15 +154,26 @@ function NavBarSticky(props) {
       </motion.nav>
 
       {/* Small Screen */}
-      <div className={`flex flex-row w-screen justify-between overflow-hidden ${isVisible ? 'fade-in' : 'fade-out'}`}>
+      <div
+        className={`flex flex-row w-screen justify-between overflow-hidden ${
+          isVisible ? "fade-in" : "fade-out"
+        }`}
+      >
         {isVisible && (
           <>
             {!open && (
               <div className="flex justify-between items-center fixed  right-2 px-5 navItems 2xl:pr-10 pr-5 pt-5 2xl:pt-10">
                 <div className="flex">
-                  <Link to="/" className="flex nav__logo no-underline sm:hidden">
+                  <Link
+                    to="/"
+                    className="flex nav__logo no-underline sm:hidden"
+                  >
                     <div className="gap-10 Courier">
-                      <img src={logo} alt="" className="w-[10vh] fixed top-5 left-5" />
+                      <img
+                        src={logo}
+                        alt=""
+                        className="w-[10vh] fixed top-5 left-5"
+                      />
                     </div>
                   </Link>
                 </div>
@@ -147,7 +187,10 @@ function NavBarSticky(props) {
                       <span className="mr-2 Boldy flex items-center justify-center z-50 sm:text-[16px] 2xl:text-[20px]">
                         GET{" "}
                       </span>
-                      <div className="flex items-center justify-center Boldy sm:text-[16px] 2xl:text-[20px]" key={CurrentStuff}>
+                      <div
+                        className="flex items-center justify-center Boldy sm:text-[16px] 2xl:text-[20px]"
+                        key={CurrentStuff}
+                      >
                         <MovingComponent
                           id="moving"
                           type="fadeInFromBottom"
@@ -206,27 +249,38 @@ function NavBarSticky(props) {
                   ml: "4rem",
                 }}
               >
-                <div className="ml-4" >
-                  <span className="Courier Prime text-[16px] 2xl:text-[20px] text-[#4A4A4A]">Stories</span>
+                <div className="ml-4">
+                  <span className="Courier Prime text-[16px] 2xl:text-[20px] text-[#4A4A4A]">
+                    Stories
+                  </span>
                   <div
                     style={{
                       display: "flex",
-
                     }}
                   >
-                    <hr style={{
-                      border: "none",
-                      borderLeft: "1px solid #ccc",
-                      height: "80px"
-                    }} />
+                    <hr
+                      style={{
+                        border: "none",
+                        borderLeft: "1px solid #ccc",
+                        height: "80px",
+                      }}
+                    />
                     <div>
                       <ListItemButton>
-                        <NavLink to="/photostories" onClick={() => setOpen(false)} className="Courier Prime 2xl:text-[20px] text-[16px]">
+                        <NavLink
+                          to="/photostories"
+                          onClick={() => setOpen(false)}
+                          className="Courier Prime 2xl:text-[20px] text-[16px]"
+                        >
                           Photos
                         </NavLink>
                       </ListItemButton>
                       <ListItemButton>
-                        <NavLink to="/videostories" onClick={() => setOpen(false)} className="Courier Prime 2xl:text-[20px] text-[16px]">
+                        <NavLink
+                          to="/videostories"
+                          onClick={() => setOpen(false)}
+                          className="Courier Prime 2xl:text-[20px] text-[16px]"
+                        >
                           Videos
                         </NavLink>
                       </ListItemButton>
@@ -250,7 +304,10 @@ function NavBarSticky(props) {
                     onClick={() => setOpen(false)}
                     style={{
                       fontSize: "1rem",
-                    }} to="/aboutus#questions" className="Courier Prime 2xl:text-[20px] text-[16px]">
+                    }}
+                    to="/aboutus#questions"
+                    className="Courier Prime 2xl:text-[20px] text-[16px]"
+                  >
                     FAQs
                   </NavLink>
                 </ListItemButton>
@@ -259,7 +316,10 @@ function NavBarSticky(props) {
                     onClick={() => setOpen(false)}
                     style={{
                       fontSize: "1rem",
-                    }} to="/testimonials" className="Courier Prime 2xl:text-[20px] text-[16px]">
+                    }}
+                    to="/testimonials"
+                    className="Courier Prime 2xl:text-[20px] text-[16px]"
+                  >
                     Testimonials
                   </NavLink>
                 </ListItemButton>
@@ -268,7 +328,10 @@ function NavBarSticky(props) {
                     onClick={() => setOpen(false)}
                     style={{
                       fontSize: "1rem",
-                    }} to="/blogs" className="Courier Prime 2xl:text-[20px] text-[16px]">
+                    }}
+                    to="/blogs"
+                    className="Courier Prime 2xl:text-[20px] text-[16px]"
+                  >
                     Blog
                   </NavLink>
                 </ListItemButton>
@@ -277,7 +340,10 @@ function NavBarSticky(props) {
                     onClick={() => setOpen(false)}
                     style={{
                       fontSize: "1rem",
-                    }} to="/aboutus#contact" className="Courier Prime 2xl:text-[20px] text-[16px] text-[#f3cc2e]">
+                    }}
+                    to="/aboutus#contact"
+                    className="Courier Prime 2xl:text-[20px] text-[16px] text-[#f3cc2e]"
+                  >
                     Get in touch
                   </NavLink>
                 </ListItemButton>

@@ -5,6 +5,7 @@ import PaginationItem from "@mui/material/PaginationItem";
 import Stack from "@mui/material/Stack";
 import facebook_icon from "../assets/FacebookLogo.png";
 import insta_icon from "../assets/InstagramLogo.png";
+import ReactPlayer from "react-player";
 import ArrowCircleLeftOutlinedIcon from "@mui/icons-material/ArrowCircleLeftOutlined";
 import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
 import useFetchData from "../customHooks/useFetchData";
@@ -24,53 +25,34 @@ function VideoStoriesSingle() {
 
   return (
     <div className="bg-[#1C1C1C] text-white">
-      <div
-        className="h-[100vh] bg-cover bg-center flex flex-col justify-end"
-        style={{
-          backgroundImage: `url(${videoStorySingleData?.image})`,
-        }}
-      />
+      <div className="flex justify-center pt-[120px]">
+        {videoStorySingleData ? (
+          <ReactPlayer
+            // className="h-[500px]"
+            width="80%"
+            height="500px"
+            url={videoStorySingleData?.video}
+          ></ReactPlayer>
+        ) : (
+          <div>There is no single video</div>
+        )}
+      </div>
       <div className=" flex justify-center items-center">
         <div className="flex flex-col items-center w-[85%]">
-          {/* <div className="text-5xl 2xl:text[70px] uppercase Boldy  text-center pt-10 pb-10">
+          <div className="text-center uppercase text-[40px] 2xl:text-[70px] sm:text-[48px] Boldy  my-[60px]">
             {videoStorySingleData?.title}
           </div>
-          <div className=" Courier flex flex-col justify-around mb-10 sm:flex-row w-[100%] lg:w-[70%] ">
+       
+       
+            <div className=" Courier flex flex-col justify-around mb-10 sm:flex-row w-[100%] lg:w-[70%] ">
             <div className=" Courier flex-1 text-md   m-2 ">
-              {videoStorySingleData?.descriptionLeft}
+            {videoStorySingleData?.descrleft}
             </div>
             <div className="Courier flex-1 text-md  m-2">
-              {videoStorySingleData?.descriptionRight}
+            {videoStorySingleData?.descrright}
             </div>
           </div>
-           <div className="w-full">
-            <img
-              src={videoStorySingleData?.mainImage}
-              alt="placeholder"
-              className="w-full h-auto"
-            />
-          </div> */}
-          <div className="text-center text-[70px] Boldy  my-[60px]">
-            alison + joel
-          </div>
-          <div className="flex px-[8%] gap-4 mb-[30px]">
-            <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Interdum velit euismod in pellentesque massa placerat duis
-              ultricies lacus. Massa tincidunt dui ut ornare lectus sit amet est
-              placerat. Consectetur purus ut faucibus pulvinar elementum. Dolor
-              sit amet consectetur adipiscing elit pellentesque.
-            </div>
-            <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Interdum velit euismod in pellentesque massa placerat duis
-              ultricies lacus. Massa tincidunt dui ut ornare lectus sit amet est
-              placerat. Consectetur purus ut faucibus pulvinar elementum. Dolor
-              sit amet consectetur adipiscing elit pellentesque.
-            </div>
-          </div>
+         
           <div className=" w-full mt-[60px]">
             <div className=" bg-[#4A4A4A] h-[1.5px] border-[#4A4A4A] w-full border " />
             <div className="flex justify-between my-[70px]">
