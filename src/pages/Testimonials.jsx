@@ -31,7 +31,7 @@ function Testimonials() {
       <div className="bg-testimonials flex flex-col justify-center items-center">
         <div className="sm:w-1/2 flex justify-center items-center flex-col py-[40px] 2xl:py-[50px] ">
         <div className="w-full flex flex-col justify-center items-start sm:items-center">
-              <div className="flex flex-row justify-self-start leading-[20px] pl-[20px] pt-[30px] 2xl:pt-[45px] ">
+              <div className="flex flex-row justify-self-start leading-[20px]  pt-[30px] 2xl:pt-[45px] md:[45px]">
                 <p className="Actonia text-white text-[30px] sm:text-[36px] 2xl:text-[64px] "> our </p>
                 <span className="text-nowrap text-[30px] text-[#1c1c1c] sm:text-[48px] 2xl:text-[70px] Boldy">HAPPY COUPLES</span>
               </div>
