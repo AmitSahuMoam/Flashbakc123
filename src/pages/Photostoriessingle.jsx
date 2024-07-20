@@ -20,37 +20,30 @@ function Photostoriessingle() {
   useEffect(() => {
     fetchPhotoStorySingleData(id);
     fetchPhotoStoryNextPrevious(id);
+    console.log(photoStorySingleData);
   }, []);
 
   return (
     <div>
       <div
-        className="h-[100vh] bg-cover bg-center flex flex-col justify-end"
+        className={`h-[${
+          photoStorySingleData ? "100vh" : "50vh"
+        }] bg-cover bg-center flex flex-col justify-end`}
         style={{
-          backgroundImage: `url(${photoStorySingleData?.image})`,
+          backgroundImage: `url(${photoStorySingleData?.hero})`,
         }}
       />
-      <div className="text-center text-[70px] Boldy text-[#1C1C1C] my-[60px]">
-        alison + joel
+      {/* <div className="text-center text-[70px] Boldy text-[#1C1C1C] my-[60px]">
+        {photoStorySingleData.title}
       </div>
       <div className="flex px-[8%] gap-4 mb-[30px]">
         <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum
-          velit euismod in pellentesque massa placerat duis ultricies lacus.
-          Massa tincidunt dui ut ornare lectus sit amet est placerat.
-          Consectetur purus ut faucibus pulvinar elementum. Dolor sit amet
-          consectetur adipiscing elit pellentesque.
+          {photoStorySingleData.descriptionLeft}
         </div>
         <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum
-          velit euismod in pellentesque massa placerat duis ultricies lacus.
-          Massa tincidunt dui ut ornare lectus sit amet est placerat.
-          Consectetur purus ut faucibus pulvinar elementum. Dolor sit amet
-          consectetur adipiscing elit pellentesque.
+          {photoStorySingleData.descriptionRight}
         </div>
-      </div>
+      </div> */}
       <div className="bg-[#EDECE7] flex justify-center items-center pb-[150px]">
         <div className="flex flex-col items-center w-[85%]">
           <div className="text-5xl 2xl:text[70px] uppercase Boldy text-[#1c1c1c] text-center pt-10 pb-10">
@@ -64,13 +57,17 @@ function Photostoriessingle() {
               {photoStorySingleData?.descriptionRight}
             </div>
           </div>
-          <div className="w-full">
-            <img
-              src="https://cdn.sanity.io/images/u8qx4arf/production/549fc0248ea993a73060723b5156991511165c55-1594x20805.jpg"
-              alt="placeholder"
-              className="w-full h-auto"
-            />
-          </div>
+          {photoStorySingleData ? (
+            <div className="w-full">
+              <img
+                src={photoStorySingleData?.mainImage}
+                alt="placeholder"
+                className="w-full h-auto"
+              />
+            </div>
+          ) : (
+            <div>There is no single photo</div>
+          )}
           <div className=" w-full mt-[60px]">
             <div className=" bg-[#4A4A4A] h-[1.5px] border-[#4A4A4A] w-full border " />
             <div className="flex justify-between my-[70px]">
@@ -110,7 +107,8 @@ function Photostoriessingle() {
                         href={`/photostories/${parseInt(id) - 1}`}
                         className="text-[32px] Boldy text-[#1C1C1C]"
                       >
-                        {`${photoStoryNextPrevious[0].firstPersonName} + ${photoStoryNextPrevious[0].secondPersonName}`}
+                        {/* {`${photoStoryNextPrevious[0].firstPersonName} + ${photoStoryNextPrevious[0].secondPersonName}`} */}
+                        {photoStoryNextPrevious[0].title}
                       </a>
                     </div>
                     <ArrowCircleLeftOutlinedIcon className="mb-4 mr-2" />
@@ -128,7 +126,8 @@ function Photostoriessingle() {
                         href={`/photostories/${parseInt(id) + 1}`}
                         className="text-[32px] Boldy text-[#1C1C1C]"
                       >
-                        {`${photoStoryNextPrevious[1].firstPersonName} + ${photoStoryNextPrevious[1].secondPersonName}`}
+                        {/* {`${photoStoryNextPrevious[1].firstPersonName} + ${photoStoryNextPrevious[1].secondPersonName}`} */}
+                        {photoStoryNextPrevious[1].title}
                       </a>
                     </div>
                     <ArrowCircleRightOutlinedIcon className="mb-4 ml-2" />
