@@ -27,6 +27,7 @@ function VideoStories() {
   useEffect(() => {
     fetchVideoStories();
     fetchAllVideoStories();
+    console.log(videoStoriesData);
   }, [videoStoryPage]);
 
   return (
@@ -74,6 +75,7 @@ function VideoStories() {
             <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-6 gap-0 max-w-[90%] lg:w-[90vw]">
               {videoStoriesData.map((videoStory, index) => (
                 <div className="flex aspect-video justify-center">
+                  {console.log(videoStory)}
                   <PhotoStoryTile
                     name={`${videoStory?.firstPersonName} + ${videoStory?.secondPersonName}`}
                     location={videoStory.state}
