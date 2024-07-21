@@ -29,8 +29,8 @@ function VideoStoriesSingle() {
         {videoStorySingleData ? (
           <ReactPlayer
             // className="h-[500px]"
-            width="80%"
-            height="500px"
+            width="78vw"
+            height="85vh"
             url={videoStorySingleData?.video}
           ></ReactPlayer>
         ) : (
