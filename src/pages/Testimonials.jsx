@@ -75,10 +75,10 @@ function Testimonials() {
           />
         </Stack>
       </div>
-      <div className=" h-[100%] flex justify-center items-center  ">
+      <div className="h-[450px] sm:h-full flex justify-center items-center overflow-hidden">
         <img
           src="https://cdn.sanity.io/images/u8qx4arf/production/719b9927c0c61f58c77df7c4c9ddaca3af3a715d-2560x920.png"
-          className="w-100% h-100% pb-0"
+          className="object-cover h-[450px] sm:h-full w-full"
           alt="Quote"
         />
       </div>
