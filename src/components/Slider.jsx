@@ -13,10 +13,10 @@ function Slider() {
   }, []);
 
   return (
-      <div className="sm:pt-[50px] pt 2xl:pt-[125px] bg-[#EDECE7] p-5 justify-self-end  w-full 2xl:h-[954px]  overflow-hidden ">
+      <div className="sm:pt-[50px] pt 2xl:pt-[125px] bg-[#EDECE7] p-5 justify-self-end  w-full sm:h-[400px] lg:h-[754px]  overflow-hidden ">
         <div className="flex flex-col sm:flex-row  items-start sm:items-center justify-center ">
         <div className="flex flex-row text-4xl justify-end mr-3 sm:pl-8 ">
-            <div className="flex flex-row sm:px-4">
+            <div className="flex flex-row sm:px-4 ">
               <span className="Actonia text-[#1C1C1C] mb-auto text-[30px] sm:text-[36px] 2xl:text-[64px] mt-[4px] ">
                 our
               </span>
