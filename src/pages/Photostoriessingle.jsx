@@ -100,12 +100,12 @@ function Photostoriessingle() {
                 {photoStoryNextPrevious[0] != null ? (
                   <div className="flex items-end flex-row-reverse">
                     <div className="flex flex-col items-start">
-                      <p className="text-[16px]  text-[#FFFFFF]  Courier Prime">
+                      <p className="text-[16px]  text-[#1C1C1C]  Courier Prime">
                         Previous
                       </p>
                       <a
                         href={`/photostories/${parseInt(id) - 1}`}
-                        className="text-[32px] Boldy text-[#FFFFFF]"
+                        className="text-[32px] Boldy text-[#1C1C1C]"
                       >
                         {/* {`${photoStoryNextPrevious[0].firstPersonName} + ${photoStoryNextPrevious[0].secondPersonName}`} */}
                         {photoStoryNextPrevious[0].title}
@@ -119,12 +119,12 @@ function Photostoriessingle() {
                 {photoStoryNextPrevious[1] != null ? (
                   <div className="flex flex-row items-end">
                     <div className="flex flex-col items-end">
-                      <p className=" text-[#FFFFFF] Courier Prime text-[16px]">
+                      <p className=" text-[#1C1C1C] Courier Prime text-[16px]">
                         Next
                       </p>
                       <a
                         href={`/photostories/${parseInt(id) + 1}`}
-                        className="text-[32px] Boldy text-[#FFFFFF]"
+                        className="text-[32px] Boldy text-[#1C1C1C]"
                       >
                         {/* {`${photoStoryNextPrevious[1].firstPersonName} + ${photoStoryNextPrevious[1].secondPersonName}`} */}
                         {photoStoryNextPrevious[1].title}

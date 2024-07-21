@@ -94,12 +94,12 @@ function VideoStoriesSingle() {
                 {videoStoryNextPrevious[0] != null ? (
                   <div className="flex items-end flex-row-reverse">
                     <div className="flex flex-col items-start">
-                      <p className="text-[16px]  text-[#1C1C1C]  Courier Prime">
+                      <p className="text-[16px]  text-[#FFFFFF]  Courier Prime">
                         Previous
                       </p>
                       <a
                         href={`/videostories/${parseInt(id) - 1}`}
-                        className="text-[32px] Boldy text-[#1C1C1C]"
+                        className="text-[32px] Boldy text-[#FFFFFF]"
                       >
                         {`${videoStoryNextPrevious[0].title}`}
                       </a>
@@ -112,7 +112,7 @@ function VideoStoriesSingle() {
                 {videoStoryNextPrevious[1] != null ? (
                   <div className="flex flex-row items-end">
                     <div className="flex flex-col items-end">
-                      <p className="text-[16px]  text-[#1C1C1C]  Courier Prime">Next</p>
+                      <p className="text-[16px]  text-[#FFFFFF]  Courier Prime">Next</p>
                       <a
                         href={`/videostories/${parseInt(id) + 1}`}
                         className="text-[32px] Boldy "
